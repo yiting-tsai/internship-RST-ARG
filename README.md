@@ -2,12 +2,16 @@
 Analysis on mapping relations between Argumentation and Rhetorical Structure Theory
 
 ## Table of Contents
+* [Next meeting](#next-meeting)
 * [General info](#general-info)
 * [Paper](#paper)
 * [Prensentation](#presentation)
 
-## General info
+## Next meeting
+14th May 2020 at 9:30 AM
 
+## General info
+This internship is conducted by Yi-Ting TSAI (Master2 in Natural Language Processing at Institut des sciences du Digital, Management & Cognition, Université de Lorraine) and supervised jointly by Mr. Yannick TOUSSAINT (LORIA CNRS, Inria Nancy Grand Est) and Mrs. Mathilde DARGNAT (ATLIF CNRS, Univérsité de Lorraine).
 
 ## Paper
 The documents are sorted, in order to keep track, to 3 categories in `read-archived`, `to-read-later` and the ongoing lecture, which the paper will directly be found in 'paper' repository.
