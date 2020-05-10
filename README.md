@@ -32,6 +32,4 @@ Slide title   | Meeting date  | Paper         | Author & time    | Note
 ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat |
 Peldszus and Stede [2013] paper summary | 07 May 2020 | From argument diagrams to argumentation mining in texts | 2013 Peldszus & Stede |
 ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat |
-Renkma [2009] Book Summary | 14 May 2020 | The Texture of Discourse
-Towards an outline of connectivity theory
- | 2009 Jan Renkema |
+Renkma [2009] Book Summary | 14 May 2020 | Texture of Discourse Towards | 2009 Jan Renkema |
