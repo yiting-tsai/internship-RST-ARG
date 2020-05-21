@@ -17,10 +17,10 @@ This internship is conducted by Yi-Ting TSAI (Master 2 candidate in Natural Lang
 The documents are sorted, in order to keep track, to 3 categories in `read-archived`, `to-read-later` and the ongoing lecture, which the paper will directly be found in 'paper' repository.
 Paper title   |Author & time  | Unread        | Read in progress | Read & finish date | Note
 ------------- | ------------- |-------------- | ---------------- | ---------------- | ----------------
-From argument diagrams to argumentation mining intexts| 2013 Peldszus & Stede  | | | X 07 May 2020 | 
+From argument diagrams to argumentation mining in texts| 2013 Peldszus & Stede  | | | X 07 May 2020 | 
 Argumentation mining | 2018 Stede & Schneider  | | | X 07 May 2020 | 
 Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat | | | X 21 April 2020 | 
-Texture of Discourse Connectivity Theory| 2009 Renkema || X  | | presentation on 14&20 May 
+Texture of Discourse Connectivity Theory| 2009 Renkema ||   | X 14&20 May 2020 |
 An Annotated Corpus of Argumentative Microtexts| 2016 Peldszus & Stede | X | | | 
 Rhetorical structure and argumentation structure in monologue text| 2016 Peldszus & Stede | X |  | | 
 Annotation Guidelines for Rhetorical Structure | 2017 Stede & Taboada || X  | | Apply to understand the relations proposed
@@ -32,4 +32,5 @@ Slide title   | Meeting date  | Paper         | Author & time    | Note
 ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat |
 Peldszus and Stede [2013] paper summary | 07 May 2020 | From argument diagrams to argumentation mining in texts | 2013 Peldszus & Stede |
 ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat |
-Renkma [2009] Book Summary | 14&20 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH1-2+6.1 / CH3-5+6.2
+Renkma1 [2009] Book Summary | 14 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH1-2+6.1
+Renkma2 [2009] Book Summary | 20 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH3-5+6.2
