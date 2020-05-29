@@ -24,6 +24,9 @@ Texture of Discourse Connectivity Theory| 2009 Renkema ||   | X 14&20 May 2020 |
 An Annotated Corpus of Argumentative Microtexts| 2016 Peldszus & Stede | X | | | 
 Rhetorical structure and argumentation structure in monologue text| 2016 Peldszus & Stede | X |  | | 
 Annotation Guidelines for Rhetorical Structure | 2017 Stede & Taboada || X  | | Apply to understand the relations proposed
+RST: Looking Back and Moving Ahead | 2006 Taboada & Mann ||   | X 29 May 2020 | 
+RST: Toward a Functional Theory of Text Organization | 1988 Mann & Thompson || X  | | 
+
 
 ## Presentation
 The slides summarizing the paper are found here.
@@ -34,3 +37,4 @@ Peldszus and Stede [2013] paper summary | 07 May 2020 | From argument diagrams t
 ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation Structures using Subtrees and Redescription Mining | 2019 Huber & Toussaint & Dargnat |
 Renkma1 [2009] Book Summary | 14 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH1-2+6.1
 Renkma2 [2009] Book Summary | 20 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH3-5+6.2
+Taboada RST [2006] Paper Summary | 29 May 2020 | RST: Looking Back and Moving Ahead | 2006 Taboada & Mann |
