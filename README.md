@@ -24,7 +24,7 @@ Texture of Discourse Connectivity Theory| 2009 Renkema ||   | X 14&20 May 2020 |
 An Annotated Corpus of Argumentative Microtexts| 2016 Peldszus & Stede | X | | | 
 Rhetorical structure and argumentation structure in monologue text| 2016 Peldszus & Stede | X |  | | 
 Annotation Guidelines for Rhetorical Structure | 2017 Stede & Taboada || X  | | Apply to understand the relations proposed
-RST: Looking Back and Moving Ahead | 2006 Taboada & Mann ||   | X 29 May 2020 | 
+RST: Looking Back and Moving Ahead | 2006 Taboada & Mann ||| X 29 May 2020 | 
 RST: Toward a Functional Theory of Text Organization | 1988 Mann & Thompson || X  | | 
 
 
