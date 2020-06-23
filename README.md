@@ -8,7 +8,7 @@ Analysis on mapping relations between Argumentation and Rhetorical Structure The
 * [Prensentation](#presentation)
 
 ## Next meeting
-Friday 05th June 2020 at 15PM
+Friday 05th June 2020 at 9AM
 
 ## General info
 This internship is conducted by Yi-Ting TSAI (Master 2 candidate in Natural Language Processing at Institut des sciences du Digital, Management & Cognition, Université de Lorraine) and supervised jointly by Mr. Yannick TOUSSAINT (LORIA CNRS, Inria Nancy Grand Est) and Mrs. Mathilde DARGNAT (ATLIF CNRS, Univérsité de Lorraine).
@@ -26,6 +26,7 @@ Rhetorical structure and argumentation structure in monologue text| 2016 Peldszu
 Annotation Guidelines for Rhetorical Structure | 2017 Stede & Taboada || X  | | Apply to understand the relations proposed
 RST: Looking Back and Moving Ahead | 2006 Taboada & Mann ||| X 29 May 2020 | 
 RST: Toward a Functional Theory of Text Organization | 1988 Mann & Thompson || X  | | 
+A Theory of Discourse Structure and Discourse Coherence | 1985 Polanyi ||| X 16 June 2020 | 
 
 
 ## Presentation
@@ -38,3 +39,5 @@ ArgMining Paper Summary | 21 April 2020 | Aligning Discourse and Argumentation S
 Renkma1 [2009] Book Summary | 14 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH1-2+6.1
 Renkma2 [2009] Book Summary | 20 May 2020 | Texture of Discourse | 2009 Jan Renkema |CH3-5+6.2
 Taboada RST [2006] Paper Summary | 29 May 2020 | RST: Looking Back and Moving Ahead | 2006 Taboada & Mann |
+Polanyi [1985] Paper Summary | 16 June 2020 | A Theory of Discourse Structure and Discourse Coherence | 1985 Polanyi |
+
