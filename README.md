@@ -8,7 +8,7 @@ Analysis on mapping relations between Argumentation and Rhetorical Structure The
 * [Prensentation](#presentation)
 
 ## Next meeting
-Friday 05th June 2020 at 9AM
+Friday 03rd July 2020 at 8AM - 9AM30
 
 ## General info
 This internship is conducted by Yi-Ting TSAI (Master 2 candidate in Natural Language Processing at Institut des sciences du Digital, Management & Cognition, Université de Lorraine) and supervised jointly by Mr. Yannick TOUSSAINT (LORIA CNRS, Inria Nancy Grand Est) and Mrs. Mathilde DARGNAT (ATLIF CNRS, Univérsité de Lorraine).
