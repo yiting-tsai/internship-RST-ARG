@@ -12,6 +12,7 @@ Analysis on mapping relations between Argumentation and Rhetorical Structure The
 
 ## Next meeting
 Thursday 09 July 2020 at 11AM
+
 Friday 10 July 2020 at 10AM15
 
 ## General info
