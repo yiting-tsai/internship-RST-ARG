@@ -12,6 +12,7 @@ Analysis on mapping relations between Argumentation and Rhetorical Structure The
 
 ## Next meeting
 Monday 27th July at 14PM with Laurine for technical details
+
 Wednesday 29th July 2020 at 10AM
 
 ## General info
