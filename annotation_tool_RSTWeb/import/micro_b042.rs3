@@ -1,0 +1,59 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="10" relname="span">The state ought not to restrict medical products or medical treatments for moral reasons</segment>
+    <segment id="2" parent="1" relname="elaboration"> as long as they don&apos;t do damage to others.</segment>
+    <segment id="3" parent="15" relname="span"> But without a prescription requirement there&apos;s also no medical advice given before intake.</segment>
+    <segment id="4" parent="11" relname="span"> Since the impact of the morning-after pill is so massive,</segment>
+    <segment id="5" parent="4" relname="elaboration"> particularly due to its abortive effect,</segment>
+    <segment id="6" parent="12" relname="span"> dispensing it without medical advice would be inappropriate.</segment>
+    <segment id="7" parent="14" relname="span"> Easy access to the morning-after pill could also result in its appearing to be an easier method than other forms of contraception that, however, have fewer health effects.</segment>
+    <segment id="8" parent="13" relname="conjunction"> For instance the morning-after pill could result in a decrease in the use of condoms</segment>
+    <segment id="9" parent="13" relname="conjunction"> and thus lead to an increase in new infections with Aids.</segment>
+<group id="10" type="span" parent="3" relname="concession" />
+<group id="11" type="span" parent="6" relname="reason" />
+<group id="12" type="span" parent="16" relname="list" />
+<group id="13" type="multinuc" parent="7" relname="elaboration" />
+<group id="14" type="span" parent="16" relname="list" />
+<group id="15" type="span" parent="16" relname="background" />
+<group id="16" type="multinuc" parent="17" relname="span" />
+<group id="17" type="span" />
+  </body>
+</rst>
