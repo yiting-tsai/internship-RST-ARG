@@ -1,0 +1,67 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="14" relname="span">Rent increases upon re-letting aren&apos;t bad as such,</segment>
+    <segment id="2" parent="1" relname="condition"> if it&apos;s only a small amount,</segment>
+    <segment id="3" parent="13" relname="span"> they’re very bad however,</segment>
+    <segment id="4" parent="3" relname="condition"> if the rent suddenly climbs by €100 or €200.</segment>
+    <segment id="5" parent="15" relname="interpretation"> With those kinds of amounts you think twice about whether you really want to stay in the flat.</segment>
+    <segment id="6" parent="7" relname="condition"> If there must be rent increases,</segment>
+    <segment id="7" parent="16" relname="span"> there should also be a cap to avoid nasty surprises.</segment>
+    <segment id="8" parent="20" relname="span"> This helps the landlords,</segment>
+    <segment id="9" parent="8" relname="reason"> as they can adjust their expenses through the increase,</segment>
+    <segment id="10" parent="19" relname="span"> and also the tenants,</segment>
+    <segment id="18" parent="10" relname="reason"> as they can plan for a maximum rent increase.</segment>
+    <segment id="11" parent="17" relname="span"> That the landlords are then slightly restricted in the administration of their property is not a problem,</segment>
+    <segment id="12" parent="11" relname="reason"> as they have more pull in the end anyway.</segment>
+<group id="13" type="span" parent="15" relname="span" />
+<group id="14" type="span" parent="13" relname="antithesis" />
+<group id="15" type="span" parent="22" relname="span" />
+<group id="16" type="span" parent="23" relname="span" />
+<group id="17" type="span" parent="23" relname="interpretation" />
+<group id="19" type="span" parent="21" relname="conjunction" />
+<group id="20" type="span" parent="21" relname="conjunction" />
+<group id="21" type="multinuc" parent="16" relname="reason" />
+<group id="22" type="span" parent="24" relname="background" />
+<group id="23" type="span" parent="24" relname="span" />
+<group id="24" type="span" parent="25" relname="span" />
+<group id="25" type="span" />
+  </body>
+</rst>

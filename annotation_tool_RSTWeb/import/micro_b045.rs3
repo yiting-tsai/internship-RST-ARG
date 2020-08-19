@@ -1,0 +1,60 @@
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="e-elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation-s" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="cause" type="rst" />
+      <rel name="result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="evaluation-n" type="rst" />
+      <rel name="reason" type="rst" />
+      <rel name="sameunit" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1" parent="7" relname="means">By purchasing illegally acquired tax data of citizens,</segment>
+    <segment id="12" parent="2" relname="antithesis"> the state is not only turning itself into a felon,</segment>
+    <segment id="2" parent="7" relname="span"> but it is paying criminals, too.</segment>
+    <segment id="3" parent="8" relname="span"> Besides, the purchase of such CDs is unnecessary today,</segment>
+    <segment id="4" parent="16" relname="sameunit"> as,</segment>
+    <segment id="15" parent="16" relname="cause"> due to changed terms of business,</segment>
+    <segment id="16" parent="17" relname="span"> many banks urge their customers to turn themselves in.</segment>
+    <segment id="5" parent="10" relname="span"> Acquiring CDs with tax data of tax delinquents is therefore out of the question.</segment>
+    <segment id="6" parent="10" relname="concession"> It is indisputable, however, that by purchasing such data the state increases the pressure on tax evaders to turn themselves in.</segment>
+<group id="8" type="span" parent="9" relname="list" />
+<group id="9" type="multinuc" parent="14" relname="span" />
+<group id="10" type="span" parent="11" relname="span" />
+<group id="11" type="span" />
+<group id="7" type="span" parent="13" relname="span" />
+<group id="13" type="span" parent="9" relname="list" />
+<group id="14" type="span" parent="5" relname="reason" />
+<group id="17" type="span" parent="3" relname="reason" />
+  </body>
+</rst>
