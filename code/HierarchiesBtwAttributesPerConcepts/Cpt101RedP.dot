@@ -1,0 +1,22 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a4,r124)" [shape=record,fillcolor=khaki1,style=filled,label="{(a4,r124)}"];
+"(a3,r106)" [shape=record,fillcolor=khaki1,style=filled,label="{(a3,r106)}"];
+"(a0,r24)" [shape=record,fillcolor=khaki1,style=filled,label="{(a0,r24)}"];
+"r124" [shape=record,fillcolor=khaki1,style=filled,label="{r124}"];
+"r126" [shape=record,fillcolor=khaki1,style=filled,label="{r126}"];
+"r127" [shape=record,fillcolor=khaki1,style=filled,label="{r127}"];
+"(a73,r127)" [shape=record,fillcolor=khaki1,style=filled,label="{(a73,r127)}"];
+"(a72,r126)" [shape=record,fillcolor=khaki1,style=filled,label="{(a72,r126)}"];
+"a73" [shape=record,fillcolor=khaki1,style=filled,label="{a73}"];
+"(a4,r124)" -> "r124"
+"(a3,r106)" -> "(a0,r24)"
+"r127" -> "r124"
+"r127" -> "r126"
+"(a73,r127)" -> "(a4,r124)"
+"(a73,r127)" -> "r127"
+"(a73,r127)" -> "(a72,r126)"
+"(a73,r127)" -> "a73"
+"(a72,r126)" -> "(a3,r106)"
+"(a72,r126)" -> "r126"
+}

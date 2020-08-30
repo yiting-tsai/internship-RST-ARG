@@ -1,0 +1,32 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a12,r13)" [shape=record,fillcolor=khaki1,style=filled,label="{(a12,r13)}"];
+"(a14,r14)" [shape=record,fillcolor=khaki1,style=filled,label="{(a14,r14)}"];
+"r17" [shape=record,fillcolor=khaki1,style=filled,label="{r17}"];
+"a14" [shape=record,fillcolor=khaki1,style=filled,label="{a14}"];
+"(a9,r1)" [shape=record,fillcolor=khaki1,style=filled,label="{(a9,r1)}"];
+"a15" [shape=record,fillcolor=khaki1,style=filled,label="{a15}"];
+"r14" [shape=record,fillcolor=khaki1,style=filled,label="{r14}"];
+"(a16,r17)" [shape=record,fillcolor=khaki1,style=filled,label="{(a16,r17)}"];
+"r15" [shape=record,fillcolor=khaki1,style=filled,label="{r15}"];
+"(a15,r15)" [shape=record,fillcolor=khaki1,style=filled,label="{(a15,r15)}"];
+"a16" [shape=record,fillcolor=khaki1,style=filled,label="{a16}"];
+"(a1,r10)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1,r10)}"];
+"(a12,r13)" -> "(a9,r1)"
+"(a14,r14)" -> "a14"
+"(a14,r14)" -> "(a1,r10)"
+"(a14,r14)" -> "r14"
+"r17" -> "r15"
+"r17" -> "r14"
+"(a16,r17)" -> "(a12,r13)"
+"(a16,r17)" -> "(a14,r14)"
+"(a16,r17)" -> "r17"
+"(a16,r17)" -> "(a15,r15)"
+"(a16,r17)" -> "a16"
+"(a15,r15)" -> "(a1,r10)"
+"(a15,r15)" -> "r15"
+"(a15,r15)" -> "(a9,r1)"
+"(a15,r15)" -> "a15"
+"a16" -> "a14"
+"a16" -> "a15"
+}

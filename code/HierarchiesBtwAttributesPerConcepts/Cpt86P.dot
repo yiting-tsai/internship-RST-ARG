@@ -1,0 +1,21 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r23)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r23)}"];
+"a8" [shape=record,fillcolor=cyan,style=filled,label="{a8}"];
+"r122" [shape=record,fillcolor=cyan,style=filled,label="{r122}"];
+"(a1,r122)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r122)}"];
+"r279" [shape=record,fillcolor=cyan,style=filled,label="{r279}"];
+"(a101,r279)" [shape=record,fillcolor=khaki1,style=filled,label="{(a101,r279)}"];
+"(a8,r122)" [shape=record,fillcolor=khaki1,style=filled,label="{(a8,r122)}"];
+"a101" [shape=record,fillcolor=cyan,style=filled,label="{a101}"];
+"(a1,r122)" -> "r122"
+"r279" -> "r122"
+"(a101,r279)" -> "(a1,r23)"
+"(a101,r279)" -> "(a1,r122)"
+"(a101,r279)" -> "r279"
+"(a101,r279)" -> "(a8,r122)"
+"(a101,r279)" -> "a101"
+"(a8,r122)" -> "r122"
+"(a8,r122)" -> "a8"
+"a101" -> "a8"
+}

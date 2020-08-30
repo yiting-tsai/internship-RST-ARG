@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1128,r1991)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1128,r1991)}"];
+"(a4,r1989)" [shape=record,fillcolor=khaki1,style=filled,label="{(a4,r1989)}"];
+"(a71,r1990)" [shape=record,fillcolor=khaki1,style=filled,label="{(a71,r1990)}"];
+"r1991" [shape=record,fillcolor=khaki1,style=filled,label="{r1991}"];
+"(a70,r142)" [shape=record,fillcolor=khaki1,style=filled,label="{(a70,r142)}"];
+"r1989" [shape=record,fillcolor=khaki1,style=filled,label="{r1989}"];
+"r1990" [shape=record,fillcolor=khaki1,style=filled,label="{r1990}"];
+"a1128" [shape=record,fillcolor=khaki1,style=filled,label="{a1128}"];
+"(a422,r433)" [shape=record,fillcolor=khaki1,style=filled,label="{(a422,r433)}"];
+"(a1128,r1991)" -> "(a71,r1990)"
+"(a1128,r1991)" -> "r1991"
+"(a1128,r1991)" -> "a1128"
+"(a1128,r1991)" -> "(a422,r433)"
+"(a4,r1989)" -> "r1989"
+"(a71,r1990)" -> "(a70,r142)"
+"(a71,r1990)" -> "(a4,r1989)"
+"(a71,r1990)" -> "r1990"
+"r1991" -> "r1990"
+"r1990" -> "r1989"
+"(a422,r433)" -> "(a70,r142)"
+}

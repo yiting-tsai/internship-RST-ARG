@@ -1,0 +1,20 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"a4" [shape=record,fillcolor=cyan,style=filled,label="{a4}"];
+"(a1,r141)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r141)}"];
+"r765" [shape=record,fillcolor=cyan,style=filled,label="{r765}"];
+"(a4,r765)" [shape=record,fillcolor=khaki1,style=filled,label="{(a4,r765)}"];
+"r770" [shape=record,fillcolor=cyan,style=filled,label="{r770}"];
+"(a400,r770)" [shape=record,fillcolor=khaki1,style=filled,label="{(a400,r770)}"];
+"a400" [shape=record,fillcolor=cyan,style=filled,label="{a400}"];
+"(a4,r765)" -> "(a1,r9)"
+"(a4,r765)" -> "a4"
+"(a4,r765)" -> "r765"
+"r770" -> "r765"
+"(a400,r770)" -> "(a1,r141)"
+"(a400,r770)" -> "(a4,r765)"
+"(a400,r770)" -> "r770"
+"(a400,r770)" -> "a400"
+"a400" -> "a4"
+}

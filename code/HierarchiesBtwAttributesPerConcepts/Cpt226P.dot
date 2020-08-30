@@ -1,0 +1,15 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1" [shape=record,fillcolor=cyan,style=filled,label="{a1}"];
+"a23" [shape=record,fillcolor=khaki1,style=filled,label="{a23}"];
+"a20" [shape=record,fillcolor=cyan,style=filled,label="{a20}"];
+"a17" [shape=record,fillcolor=cyan,style=filled,label="{a17}"];
+"a18" [shape=record,fillcolor=cyan,style=filled,label="{a18}"];
+"a28" [shape=record,fillcolor=khaki1,style=filled,label="{a28}"];
+"a23" -> "a1"
+"a23" -> "a18"
+"a20" -> "a18"
+"a20" -> "a17"
+"a28" -> "a23"
+"a28" -> "a20"
+}

@@ -1,0 +1,28 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r1030" [shape=record,fillcolor=khaki1,style=filled,label="{r1030}"];
+"(a506,r1033)" [shape=record,fillcolor=khaki1,style=filled,label="{(a506,r1033)}"];
+"(a13,r1031)" [shape=record,fillcolor=khaki1,style=filled,label="{(a13,r1031)}"];
+"(a11,r1028)" [shape=record,fillcolor=khaki1,style=filled,label="{(a11,r1028)}"];
+"r1033" [shape=record,fillcolor=khaki1,style=filled,label="{r1033}"];
+"a505" [shape=record,fillcolor=khaki1,style=filled,label="{a505}"];
+"r1031" [shape=record,fillcolor=khaki1,style=filled,label="{r1031}"];
+"a506" [shape=record,fillcolor=khaki1,style=filled,label="{a506}"];
+"r1028" [shape=record,fillcolor=khaki1,style=filled,label="{r1028}"];
+"(a505,r1030)" [shape=record,fillcolor=khaki1,style=filled,label="{(a505,r1030)}"];
+"r1030" -> "r1028"
+"(a506,r1033)" -> "(a13,r1031)"
+"(a506,r1033)" -> "r1033"
+"(a506,r1033)" -> "a506"
+"(a506,r1033)" -> "(a505,r1030)"
+"(a13,r1031)" -> "r1031"
+"(a13,r1031)" -> "(a11,r1028)"
+"(a11,r1028)" -> "r1028"
+"r1033" -> "r1031"
+"r1033" -> "r1030"
+"r1031" -> "r1028"
+"a506" -> "a505"
+"(a505,r1030)" -> "a505"
+"(a505,r1030)" -> "r1030"
+"(a505,r1030)" -> "(a11,r1028)"
+}

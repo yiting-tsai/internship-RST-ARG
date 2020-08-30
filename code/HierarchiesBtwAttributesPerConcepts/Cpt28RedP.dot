@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r811" [shape=record,fillcolor=khaki1,style=filled,label="{r811}"];
+"r817" [shape=record,fillcolor=khaki1,style=filled,label="{r817}"];
+"r813" [shape=record,fillcolor=khaki1,style=filled,label="{r813}"];
+"(a4,r812)" [shape=record,fillcolor=khaki1,style=filled,label="{(a4,r812)}"];
+"r812" [shape=record,fillcolor=khaki1,style=filled,label="{r812}"];
+"(a1,r811)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1,r811)}"];
+"(a71,r817)" [shape=record,fillcolor=khaki1,style=filled,label="{(a71,r817)}"];
+"(a70,r813)" [shape=record,fillcolor=khaki1,style=filled,label="{(a70,r813)}"];
+"r817" -> "r813"
+"r817" -> "r812"
+"r813" -> "r811"
+"(a4,r812)" -> "(a1,r811)"
+"(a4,r812)" -> "r812"
+"r812" -> "r811"
+"(a1,r811)" -> "r811"
+"(a71,r817)" -> "r817"
+"(a71,r817)" -> "(a4,r812)"
+"(a71,r817)" -> "(a70,r813)"
+"(a70,r813)" -> "(a1,r811)"
+"(a70,r813)" -> "r813"
+}

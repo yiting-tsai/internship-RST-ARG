@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a56,r23)" [shape=record,fillcolor=cyan,style=filled,label="{(a56,r23)}"];
+"(a4,r33)" [shape=record,fillcolor=cyan,style=filled,label="{(a4,r33)}"];
+"(a60,r438)" [shape=record,fillcolor=khaki1,style=filled,label="{(a60,r438)}"];
+"(a1,r168)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r168)}"];
+"a65" [shape=record,fillcolor=cyan,style=filled,label="{a65}"];
+"r438" [shape=record,fillcolor=cyan,style=filled,label="{r438}"];
+"(a1,r23)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r23)}"];
+"(a1,r24)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r24)}"];
+"a60" [shape=record,fillcolor=cyan,style=filled,label="{a60}"];
+"r446" [shape=record,fillcolor=cyan,style=filled,label="{r446}"];
+"(a60,r33)" [shape=record,fillcolor=cyan,style=filled,label="{(a60,r33)}"];
+"(a65,r446)" [shape=record,fillcolor=khaki1,style=filled,label="{(a65,r446)}"];
+"(a4,r33)" -> "(a1,r23)"
+"(a4,r33)" -> "(a1,r24)"
+"(a60,r438)" -> "r438"
+"(a60,r438)" -> "(a56,r23)"
+"(a60,r438)" -> "(a1,r23)"
+"(a60,r438)" -> "a60"
+"(a60,r438)" -> "(a1,r168)"
+"a65" -> "a60"
+"r446" -> "r438"
+"(a60,r33)" -> "a60"
+"(a60,r33)" -> "(a56,r23)"
+"(a60,r33)" -> "(a1,r23)"
+"(a60,r33)" -> "(a1,r24)"
+"(a65,r446)" -> "(a4,r33)"
+"(a65,r446)" -> "(a60,r438)"
+"(a65,r446)" -> "a65"
+"(a65,r446)" -> "r446"
+"(a65,r446)" -> "(a60,r33)"
+}

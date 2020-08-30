@@ -1,0 +1,35 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"(a1,r23)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r23)}"];
+"r971" [shape=record,fillcolor=khaki1,style=filled,label="{r971}"];
+"(a4,r33)" [shape=record,fillcolor=orange,style=filled,label="{(a4,r33)}"];
+"r248" [shape=record,fillcolor=orange,style=filled,label="{r248}"];
+"a4" [shape=record,fillcolor=orange,style=filled,label="{a4}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"r807" [shape=record,fillcolor=orange,style=filled,label="{r807}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"r20" [shape=record,fillcolor=orange,style=filled,label="{r20}"];
+"r973" [shape=record,fillcolor=khaki1,style=filled,label="{r973}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"r808" [shape=record,fillcolor=orange,style=filled,label="{r808}"];
+"(a1,r23)" -> "a1"
+"(a1,r23)" -> "r23"
+"r971" -> "r248"
+"r971" -> "r807"
+"(a4,r33)" -> "a4"
+"(a4,r33)" -> "(a1,r23)"
+"(a4,r33)" -> "r33"
+"r248" -> "r9"
+"r248" -> "r20"
+"a4" -> "a1"
+"r807" -> "r9"
+"r807" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+"r973" -> "r971"
+"r973" -> "r808"
+"r808" -> "r807"
+"r808" -> "r33"
+}

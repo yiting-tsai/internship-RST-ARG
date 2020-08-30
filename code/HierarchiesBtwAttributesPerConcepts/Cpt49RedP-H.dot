@@ -1,0 +1,63 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a70,r33)" [shape=record,fillcolor=khaki1,style=filled,label="{(a70,r33)}"];
+"a58" [shape=record,fillcolor=orange,style=filled,label="{a58}"];
+"(a143,r1672)" [shape=record,fillcolor=khaki1,style=filled,label="{(a143,r1672)}"];
+"a57" [shape=record,fillcolor=orange,style=filled,label="{a57}"];
+"a56" [shape=record,fillcolor=orange,style=filled,label="{a56}"];
+"a141" [shape=record,fillcolor=orange,style=filled,label="{a141}"];
+"r31" [shape=record,fillcolor=orange,style=filled,label="{r31}"];
+"r43" [shape=record,fillcolor=orange,style=filled,label="{r43}"];
+"a62" [shape=record,fillcolor=orange,style=filled,label="{a62}"];
+"(a57,r31)" [shape=record,fillcolor=orange,style=filled,label="{(a57,r31)}"];
+"r116" [shape=record,fillcolor=orange,style=filled,label="{r116}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"(a1,r24)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r24)}"];
+"a60" [shape=record,fillcolor=orange,style=filled,label="{a60}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"a70" [shape=record,fillcolor=orange,style=filled,label="{a70}"];
+"a55" [shape=record,fillcolor=orange,style=filled,label="{a55}"];
+"r19" [shape=record,fillcolor=orange,style=filled,label="{r19}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"a143" [shape=record,fillcolor=orange,style=filled,label="{a143}"];
+"(a141,r116)" [shape=record,fillcolor=khaki1,style=filled,label="{(a141,r116)}"];
+"r1672" [shape=record,fillcolor=orange,style=filled,label="{r1672}"];
+"(a70,r33)" -> "a70"
+"(a70,r33)" -> "(a1,r24)"
+"(a70,r33)" -> "r33"
+"a58" -> "a1"
+"a58" -> "a55"
+"(a143,r1672)" -> "a143"
+"(a143,r1672)" -> "(a141,r116)"
+"(a143,r1672)" -> "r1672"
+"(a143,r1672)" -> "(a57,r31)"
+"a57" -> "a56"
+"a57" -> "a55"
+"a141" -> "a60"
+"a141" -> "a70"
+"r31" -> "r19"
+"r31" -> "r23"
+"r43" -> "r33"
+"r43" -> "r31"
+"a62" -> "a58"
+"a62" -> "a60"
+"a62" -> "a57"
+"(a57,r31)" -> "r31"
+"(a57,r31)" -> "a57"
+"r116" -> "r33"
+"(a1,r24)" -> "a1"
+"(a1,r24)" -> "r24"
+"a60" -> "a1"
+"a60" -> "a56"
+"a70" -> "a1"
+"r33" -> "r24"
+"r33" -> "r23"
+"a143" -> "a141"
+"a143" -> "a62"
+"(a141,r116)" -> "r116"
+"(a141,r116)" -> "a141"
+"(a141,r116)" -> "(a70,r33)"
+"r1672" -> "r116"
+"r1672" -> "r43"
+}

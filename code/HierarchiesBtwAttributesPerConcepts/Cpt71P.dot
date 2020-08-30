@@ -1,0 +1,48 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a36" [shape=record,fillcolor=khaki1,style=filled,label="{a36}"];
+"a32" [shape=record,fillcolor=cyan,style=filled,label="{a32}"];
+"a3" [shape=record,fillcolor=cyan,style=filled,label="{a3}"];
+"a17" [shape=record,fillcolor=cyan,style=filled,label="{a17}"];
+"a25" [shape=record,fillcolor=cyan,style=filled,label="{a25}"];
+"a0" [shape=record,fillcolor=cyan,style=filled,label="{a0}"];
+"a24" [shape=record,fillcolor=cyan,style=filled,label="{a24}"];
+"a18" [shape=record,fillcolor=cyan,style=filled,label="{a18}"];
+"a21" [shape=record,fillcolor=cyan,style=filled,label="{a21}"];
+"a31" [shape=record,fillcolor=cyan,style=filled,label="{a31}"];
+"a22" [shape=record,fillcolor=cyan,style=filled,label="{a22}"];
+"a1" [shape=record,fillcolor=cyan,style=filled,label="{a1}"];
+"a20" [shape=record,fillcolor=cyan,style=filled,label="{a20}"];
+"a26" [shape=record,fillcolor=cyan,style=filled,label="{a26}"];
+"a19" [shape=record,fillcolor=cyan,style=filled,label="{a19}"];
+"a27" [shape=record,fillcolor=cyan,style=filled,label="{a27}"];
+"a30" [shape=record,fillcolor=cyan,style=filled,label="{a30}"];
+"a36" -> "a32"
+"a36" -> "a30"
+"a36" -> "a31"
+"a32" -> "a25"
+"a32" -> "a27"
+"a32" -> "a26"
+"a3" -> "a1"
+"a3" -> "a0"
+"a25" -> "a20"
+"a25" -> "a21"
+"a24" -> "a19"
+"a24" -> "a20"
+"a21" -> "a1"
+"a21" -> "a18"
+"a31" -> "a26"
+"a31" -> "a24"
+"a22" -> "a0"
+"a22" -> "a18"
+"a20" -> "a18"
+"a20" -> "a17"
+"a26" -> "a20"
+"a26" -> "a22"
+"a19" -> "a17"
+"a27" -> "a3"
+"a27" -> "a21"
+"a27" -> "a22"
+"a30" -> "a25"
+"a30" -> "a24"
+}

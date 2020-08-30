@@ -1,0 +1,31 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a58" [shape=record,fillcolor=cyan,style=filled,label="{a58}"];
+"a56" [shape=record,fillcolor=cyan,style=filled,label="{a56}"];
+"a57" [shape=record,fillcolor=cyan,style=filled,label="{a57}"];
+"a141" [shape=record,fillcolor=khaki1,style=filled,label="{a141}"];
+"a62" [shape=record,fillcolor=cyan,style=filled,label="{a62}"];
+"a1" [shape=record,fillcolor=cyan,style=filled,label="{a1}"];
+"a60" [shape=record,fillcolor=cyan,style=filled,label="{a60}"];
+"a70" [shape=record,fillcolor=cyan,style=filled,label="{a70}"];
+"a55" [shape=record,fillcolor=cyan,style=filled,label="{a55}"];
+"a143" [shape=record,fillcolor=khaki1,style=filled,label="{a143}"];
+"a139" [shape=record,fillcolor=cyan,style=filled,label="{a139}"];
+"a58" -> "a1"
+"a58" -> "a55"
+"a57" -> "a56"
+"a57" -> "a55"
+"a141" -> "a60"
+"a141" -> "a70"
+"a62" -> "a58"
+"a62" -> "a60"
+"a62" -> "a57"
+"a60" -> "a1"
+"a60" -> "a56"
+"a70" -> "a1"
+"a143" -> "a141"
+"a143" -> "a139"
+"a143" -> "a62"
+"a139" -> "a58"
+"a139" -> "a70"
+}

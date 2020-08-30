@@ -1,0 +1,26 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a20" [shape=record,fillcolor=cyan,style=filled,label="{a20}"];
+"a17" [shape=record,fillcolor=cyan,style=filled,label="{a17}"];
+"a117" [shape=record,fillcolor=cyan,style=filled,label="{a117}"];
+"a109" [shape=record,fillcolor=cyan,style=filled,label="{a109}"];
+"a19" [shape=record,fillcolor=cyan,style=filled,label="{a19}"];
+"a24" [shape=record,fillcolor=cyan,style=filled,label="{a24}"];
+"a18" [shape=record,fillcolor=cyan,style=filled,label="{a18}"];
+"a112" [shape=record,fillcolor=cyan,style=filled,label="{a112}"];
+"a121" [shape=record,fillcolor=khaki1,style=filled,label="{a121}"];
+"a116" [shape=record,fillcolor=khaki1,style=filled,label="{a116}"];
+"a20" -> "a18"
+"a20" -> "a17"
+"a117" -> "a112"
+"a109" -> "a18"
+"a19" -> "a17"
+"a24" -> "a19"
+"a24" -> "a20"
+"a112" -> "a109"
+"a112" -> "a20"
+"a121" -> "a117"
+"a121" -> "a116"
+"a116" -> "a24"
+"a116" -> "a112"
+}

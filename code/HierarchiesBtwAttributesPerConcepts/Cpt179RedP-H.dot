@@ -1,0 +1,28 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r141" [shape=record,fillcolor=orange,style=filled,label="{r141}"];
+"r988" [shape=record,fillcolor=orange,style=filled,label="{r988}"];
+"r1596" [shape=record,fillcolor=khaki1,style=filled,label="{r1596}"];
+"a20" [shape=record,fillcolor=orange,style=filled,label="{a20}"];
+"r19" [shape=record,fillcolor=orange,style=filled,label="{r19}"];
+"r1586" [shape=record,fillcolor=khaki1,style=filled,label="{r1586}"];
+"a17" [shape=record,fillcolor=orange,style=filled,label="{a17}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r987" [shape=record,fillcolor=orange,style=filled,label="{r987}"];
+"r1581" [shape=record,fillcolor=orange,style=filled,label="{r1581}"];
+"a18" [shape=record,fillcolor=orange,style=filled,label="{a18}"];
+"r1585" [shape=record,fillcolor=khaki1,style=filled,label="{r1585}"];
+"r988" -> "r987"
+"r988" -> "r23"
+"r1596" -> "r1586"
+"r1596" -> "r1581"
+"r1596" -> "r1585"
+"a20" -> "a18"
+"a20" -> "a17"
+"r1586" -> "r987"
+"r1586" -> "r141"
+"r1581" -> "r141"
+"r1581" -> "r19"
+"r1585" -> "r987"
+"r1585" -> "r19"
+}

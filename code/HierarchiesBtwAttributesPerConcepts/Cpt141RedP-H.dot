@@ -1,0 +1,26 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"a420" [shape=record,fillcolor=orange,style=filled,label="{a420}"];
+"a421" [shape=record,fillcolor=orange,style=filled,label="{a421}"];
+"(a0,r19)" [shape=record,fillcolor=orange,style=filled,label="{(a0,r19)}"];
+"r19" [shape=record,fillcolor=orange,style=filled,label="{r19}"];
+"a3" [shape=record,fillcolor=orange,style=filled,label="{a3}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"a0" [shape=record,fillcolor=orange,style=filled,label="{a0}"];
+"(a420,r859)" [shape=record,fillcolor=khaki1,style=filled,label="{(a420,r859)}"];
+"r859" [shape=record,fillcolor=orange,style=filled,label="{r859}"];
+"a420" -> "a1"
+"a420" -> "a0"
+"a421" -> "a420"
+"a421" -> "a3"
+"(a0,r19)" -> "a0"
+"(a0,r19)" -> "r19"
+"a3" -> "a1"
+"a3" -> "a0"
+"(a420,r859)" -> "a420"
+"(a420,r859)" -> "(a0,r19)"
+"(a420,r859)" -> "r859"
+"r859" -> "r9"
+"r859" -> "r19"
+}

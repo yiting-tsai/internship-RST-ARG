@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"r129" [shape=record,fillcolor=cyan,style=filled,label="{r129}"];
+"a62" [shape=record,fillcolor=cyan,style=filled,label="{a62}"];
+"a60" [shape=record,fillcolor=cyan,style=filled,label="{a60}"];
+"(a57,r248)" [shape=record,fillcolor=cyan,style=filled,label="{(a57,r248)}"];
+"(a56,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a56,r9)}"];
+"r793" [shape=record,fillcolor=cyan,style=filled,label="{r793}"];
+"(a62,r793)" [shape=record,fillcolor=khaki1,style=filled,label="{(a62,r793)}"];
+"(a60,r129)" [shape=record,fillcolor=khaki1,style=filled,label="{(a60,r129)}"];
+"a62" -> "a60"
+"(a57,r248)" -> "(a56,r9)"
+"r793" -> "r129"
+"(a62,r793)" -> "(a60,r129)"
+"(a62,r793)" -> "(a57,r248)"
+"(a62,r793)" -> "r793"
+"(a62,r793)" -> "a62"
+"(a60,r129)" -> "a60"
+"(a60,r129)" -> "r129"
+"(a60,r129)" -> "(a1,r9)"
+"(a60,r129)" -> "(a56,r9)"
+}

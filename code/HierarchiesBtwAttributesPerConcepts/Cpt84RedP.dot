@@ -1,0 +1,31 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a97,r148)" [shape=record,fillcolor=khaki1,style=filled,label="{(a97,r148)}"];
+"(a94,r143)" [shape=record,fillcolor=khaki1,style=filled,label="{(a94,r143)}"];
+"r146" [shape=record,fillcolor=khaki1,style=filled,label="{r146}"];
+"r145" [shape=record,fillcolor=khaki1,style=filled,label="{r145}"];
+"(a98,r149)" [shape=record,fillcolor=khaki1,style=filled,label="{(a98,r149)}"];
+"r148" [shape=record,fillcolor=khaki1,style=filled,label="{r148}"];
+"r143" [shape=record,fillcolor=khaki1,style=filled,label="{r143}"];
+"(a96,r146)" [shape=record,fillcolor=khaki1,style=filled,label="{(a96,r146)}"];
+"r149" [shape=record,fillcolor=khaki1,style=filled,label="{r149}"];
+"(a95,r145)" [shape=record,fillcolor=khaki1,style=filled,label="{(a95,r145)}"];
+"(a92,r139)" [shape=record,fillcolor=khaki1,style=filled,label="{(a92,r139)}"];
+"(a97,r148)" -> "(a94,r143)"
+"(a97,r148)" -> "(a95,r145)"
+"(a97,r148)" -> "r148"
+"(a94,r143)" -> "r143"
+"(a94,r143)" -> "(a92,r139)"
+"r146" -> "r143"
+"(a98,r149)" -> "(a97,r148)"
+"(a98,r149)" -> "(a96,r146)"
+"(a98,r149)" -> "r149"
+"r148" -> "r143"
+"r148" -> "r145"
+"(a96,r146)" -> "(a94,r143)"
+"(a96,r146)" -> "r146"
+"r149" -> "r146"
+"r149" -> "r148"
+"(a95,r145)" -> "(a92,r139)"
+"(a95,r145)" -> "r145"
+}

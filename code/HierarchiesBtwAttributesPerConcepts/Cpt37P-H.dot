@@ -1,0 +1,79 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"(a4,r33)" [shape=record,fillcolor=orange,style=filled,label="{(a4,r33)}"];
+"(a271,r248)" [shape=record,fillcolor=orange,style=filled,label="{(a271,r248)}"];
+"(a0,r20)" [shape=record,fillcolor=orange,style=filled,label="{(a0,r20)}"];
+"r971" [shape=record,fillcolor=orange,style=filled,label="{r971}"];
+"a3" [shape=record,fillcolor=orange,style=filled,label="{a3}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"r808" [shape=record,fillcolor=orange,style=filled,label="{r808}"];
+"a419" [shape=record,fillcolor=orange,style=filled,label="{a419}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"a271" [shape=record,fillcolor=orange,style=filled,label="{a271}"];
+"(a1,r23)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r23)}"];
+"(a1,r24)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r24)}"];
+"r248" [shape=record,fillcolor=orange,style=filled,label="{r248}"];
+"a4" [shape=record,fillcolor=orange,style=filled,label="{a4}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"r807" [shape=record,fillcolor=orange,style=filled,label="{r807}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"a6" [shape=record,fillcolor=orange,style=filled,label="{a6}"];
+"(a0,r24)" [shape=record,fillcolor=cyan,style=filled,label="{(a0,r24)}"];
+"(a419,r973)" [shape=record,fillcolor=khaki1,style=filled,label="{(a419,r973)}"];
+"r20" [shape=record,fillcolor=orange,style=filled,label="{r20}"];
+"(a418,r971)" [shape=record,fillcolor=khaki1,style=filled,label="{(a418,r971)}"];
+"r973" [shape=record,fillcolor=orange,style=filled,label="{r973}"];
+"a0" [shape=record,fillcolor=orange,style=filled,label="{a0}"];
+"a418" [shape=record,fillcolor=orange,style=filled,label="{a418}"];
+"(a1,r9)" -> "r9"
+"(a1,r9)" -> "a1"
+"(a4,r33)" -> "a4"
+"(a4,r33)" -> "(a1,r23)"
+"(a4,r33)" -> "(a1,r24)"
+"(a4,r33)" -> "r33"
+"(a271,r248)" -> "(a0,r20)"
+"(a271,r248)" -> "a271"
+"(a271,r248)" -> "r248"
+"(a0,r20)" -> "a0"
+"(a0,r20)" -> "r20"
+"r971" -> "r248"
+"r971" -> "r807"
+"a3" -> "a1"
+"a3" -> "a0"
+"r808" -> "r807"
+"r808" -> "r33"
+"a419" -> "a6"
+"a419" -> "a418"
+"a271" -> "a0"
+"(a1,r23)" -> "a1"
+"(a1,r23)" -> "r23"
+"(a1,r24)" -> "a1"
+"(a1,r24)" -> "r24"
+"r248" -> "r9"
+"r248" -> "r20"
+"a4" -> "a1"
+"r807" -> "r9"
+"r807" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+"a6" -> "a4"
+"a6" -> "a3"
+"(a0,r24)" -> "a0"
+"(a0,r24)" -> "r24"
+"(a419,r973)" -> "a419"
+"(a419,r973)" -> "(a4,r33)"
+"(a419,r973)" -> "(a0,r24)"
+"(a419,r973)" -> "(a418,r971)"
+"(a419,r973)" -> "r973"
+"(a418,r971)" -> "(a1,r9)"
+"(a418,r971)" -> "(a1,r23)"
+"(a418,r971)" -> "r971"
+"(a418,r971)" -> "(a271,r248)"
+"(a418,r971)" -> "a418"
+"r973" -> "r971"
+"r973" -> "r808"
+"a418" -> "a271"
+"a418" -> "a3"
+}

@@ -1,0 +1,55 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r9)}"];
+"(a418,r434)" [shape=record,fillcolor=orange,style=filled,label="{(a418,r434)}"];
+"r129" [shape=record,fillcolor=orange,style=filled,label="{r129}"];
+"a3" [shape=record,fillcolor=orange,style=filled,label="{a3}"];
+"r791" [shape=record,fillcolor=khaki1,style=filled,label="{r791}"];
+"r432" [shape=record,fillcolor=orange,style=filled,label="{r432}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"r790" [shape=record,fillcolor=orange,style=filled,label="{r790}"];
+"a419" [shape=record,fillcolor=orange,style=filled,label="{a419}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"a271" [shape=record,fillcolor=orange,style=filled,label="{a271}"];
+"r434" [shape=record,fillcolor=orange,style=filled,label="{r434}"];
+"(a0,r19)" [shape=record,fillcolor=orange,style=filled,label="{(a0,r19)}"];
+"a4" [shape=record,fillcolor=orange,style=filled,label="{a4}"];
+"r19" [shape=record,fillcolor=orange,style=filled,label="{r19}"];
+"a6" [shape=record,fillcolor=orange,style=filled,label="{a6}"];
+"(a419,r791)" [shape=record,fillcolor=khaki1,style=filled,label="{(a419,r791)}"];
+"(a271,r432)" [shape=record,fillcolor=orange,style=filled,label="{(a271,r432)}"];
+"a0" [shape=record,fillcolor=orange,style=filled,label="{a0}"];
+"a418" [shape=record,fillcolor=orange,style=filled,label="{a418}"];
+"(a1,r9)" -> "r9"
+"(a1,r9)" -> "a1"
+"(a418,r434)" -> "(a1,r9)"
+"(a418,r434)" -> "r434"
+"(a418,r434)" -> "(a271,r432)"
+"(a418,r434)" -> "a418"
+"r129" -> "r9"
+"a3" -> "a1"
+"a3" -> "a0"
+"r791" -> "r434"
+"r791" -> "r790"
+"r432" -> "r9"
+"r432" -> "r19"
+"r790" -> "r129"
+"a419" -> "a6"
+"a419" -> "a418"
+"a271" -> "a0"
+"r434" -> "r129"
+"r434" -> "r432"
+"(a0,r19)" -> "a0"
+"(a0,r19)" -> "r19"
+"a4" -> "a1"
+"a6" -> "a4"
+"a6" -> "a3"
+"(a419,r791)" -> "a419"
+"(a419,r791)" -> "(a418,r434)"
+"(a419,r791)" -> "r791"
+"(a271,r432)" -> "a271"
+"(a271,r432)" -> "(a0,r19)"
+"(a271,r432)" -> "r432"
+"a418" -> "a271"
+"a418" -> "a3"
+}

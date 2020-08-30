@@ -1,0 +1,33 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"a222" [shape=record,fillcolor=khaki1,style=filled,label="{a222}"];
+"a60" [shape=record,fillcolor=orange,style=filled,label="{a60}"];
+"a221" [shape=record,fillcolor=orange,style=filled,label="{a221}"];
+"a56" [shape=record,fillcolor=orange,style=filled,label="{a56}"];
+"a20" [shape=record,fillcolor=orange,style=filled,label="{a20}"];
+"a17" [shape=record,fillcolor=orange,style=filled,label="{a17}"];
+"a225" [shape=record,fillcolor=khaki1,style=filled,label="{a225}"];
+"a25" [shape=record,fillcolor=orange,style=filled,label="{a25}"];
+"a18" [shape=record,fillcolor=orange,style=filled,label="{a18}"];
+"a219" [shape=record,fillcolor=orange,style=filled,label="{a219}"];
+"a21" [shape=record,fillcolor=orange,style=filled,label="{a21}"];
+"a222" -> "a60"
+"a222" -> "a219"
+"a222" -> "a21"
+"a60" -> "a1"
+"a60" -> "a56"
+"a221" -> "a20"
+"a221" -> "a219"
+"a20" -> "a18"
+"a20" -> "a17"
+"a225" -> "a25"
+"a225" -> "a222"
+"a225" -> "a221"
+"a25" -> "a20"
+"a25" -> "a21"
+"a219" -> "a56"
+"a219" -> "a18"
+"a21" -> "a1"
+"a21" -> "a18"
+}

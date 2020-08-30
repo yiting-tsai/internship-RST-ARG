@@ -1,0 +1,21 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r1619" [shape=record,fillcolor=khaki1,style=filled,label="{r1619}"];
+"(a1,r759)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1,r759)}"];
+"(a19,r1622)" [shape=record,fillcolor=khaki1,style=filled,label="{(a19,r1622)}"];
+"(a4,r1619)" [shape=record,fillcolor=khaki1,style=filled,label="{(a4,r1619)}"];
+"r1622" [shape=record,fillcolor=khaki1,style=filled,label="{r1622}"];
+"r1626" [shape=record,fillcolor=khaki1,style=filled,label="{r1626}"];
+"(a65,r1626)" [shape=record,fillcolor=khaki1,style=filled,label="{(a65,r1626)}"];
+"(a311,r1629)" [shape=record,fillcolor=khaki1,style=filled,label="{(a311,r1629)}"];
+"r1629" [shape=record,fillcolor=khaki1,style=filled,label="{r1629}"];
+"(a19,r1622)" -> "r1622"
+"(a4,r1619)" -> "r1619"
+"(a4,r1619)" -> "(a1,r759)"
+"r1626" -> "r1619"
+"(a65,r1626)" -> "r1626"
+"(a65,r1626)" -> "(a4,r1619)"
+"(a311,r1629)" -> "(a19,r1622)"
+"(a311,r1629)" -> "r1629"
+"r1629" -> "r1622"
+}

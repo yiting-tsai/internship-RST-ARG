@@ -1,0 +1,51 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"r129" [shape=record,fillcolor=cyan,style=filled,label="{r129}"];
+"(a8,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a8,r9)}"];
+"(a1012,r790)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1012,r790)}"];
+"r1669" [shape=record,fillcolor=khaki1,style=filled,label="{r1669}"];
+"(a1010,r793)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1010,r793)}"];
+"r793" [shape=record,fillcolor=cyan,style=filled,label="{r793}"];
+"r9" [shape=record,fillcolor=cyan,style=filled,label="{r9}"];
+"r790" [shape=record,fillcolor=cyan,style=filled,label="{r790}"];
+"a1010" [shape=record,fillcolor=cyan,style=filled,label="{a1010}"];
+"r248" [shape=record,fillcolor=cyan,style=filled,label="{r248}"];
+"(a1013,r1669)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1013,r1669)}"];
+"(a4,r129)" [shape=record,fillcolor=cyan,style=filled,label="{(a4,r129)}"];
+"(a94,r248)" [shape=record,fillcolor=khaki1,style=filled,label="{(a94,r248)}"];
+"a1012" [shape=record,fillcolor=cyan,style=filled,label="{a1012}"];
+"r20" [shape=record,fillcolor=cyan,style=filled,label="{r20}"];
+"a1013" [shape=record,fillcolor=cyan,style=filled,label="{a1013}"];
+"a94" [shape=record,fillcolor=cyan,style=filled,label="{a94}"];
+"(a1,r9)" -> "r9"
+"r129" -> "r9"
+"(a8,r9)" -> "r9"
+"(a1012,r790)" -> "(a8,r9)"
+"(a1012,r790)" -> "(a4,r129)"
+"(a1012,r790)" -> "a1012"
+"(a1012,r790)" -> "r790"
+"r1669" -> "r793"
+"r1669" -> "r790"
+"(a1010,r793)" -> "(a1,r9)"
+"(a1010,r793)" -> "(a94,r248)"
+"(a1010,r793)" -> "r793"
+"(a1010,r793)" -> "a1010"
+"r793" -> "r129"
+"r793" -> "r248"
+"r790" -> "r129"
+"a1010" -> "a94"
+"r248" -> "r9"
+"r248" -> "r20"
+"(a1013,r1669)" -> "(a1012,r790)"
+"(a1013,r1669)" -> "r1669"
+"(a1013,r1669)" -> "(a1010,r793)"
+"(a1013,r1669)" -> "a1013"
+"(a4,r129)" -> "(a1,r9)"
+"(a4,r129)" -> "r129"
+"(a94,r248)" -> "(a8,r9)"
+"(a94,r248)" -> "a94"
+"(a94,r248)" -> "r248"
+"a1013" -> "a1012"
+"a1013" -> "a1010"
+}

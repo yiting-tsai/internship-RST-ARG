@@ -1,0 +1,155 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"a674" [shape=record,fillcolor=cyan,style=filled,label="{a674}"];
+"(a74,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a74,r9)}"];
+"(a674,r937)" [shape=record,fillcolor=khaki1,style=filled,label="{(a674,r937)}"];
+"r937" [shape=record,fillcolor=cyan,style=filled,label="{r937}"];
+"(a312,r892)" [shape=record,fillcolor=khaki1,style=filled,label="{(a312,r892)}"];
+"(a602,r918)" [shape=record,fillcolor=khaki1,style=filled,label="{(a602,r918)}"];
+"r923" [shape=record,fillcolor=cyan,style=filled,label="{r923}"];
+"a521" [shape=record,fillcolor=cyan,style=filled,label="{a521}"];
+"r900" [shape=record,fillcolor=cyan,style=filled,label="{r900}"];
+"(a551,r907)" [shape=record,fillcolor=khaki1,style=filled,label="{(a551,r907)}"];
+"a306" [shape=record,fillcolor=cyan,style=filled,label="{a306}"];
+"(a550,r904)" [shape=record,fillcolor=khaki1,style=filled,label="{(a550,r904)}"];
+"a549" [shape=record,fillcolor=cyan,style=filled,label="{a549}"];
+"a603" [shape=record,fillcolor=cyan,style=filled,label="{a603}"];
+"a601" [shape=record,fillcolor=cyan,style=filled,label="{a601}"];
+"(a521,r894)" [shape=record,fillcolor=khaki1,style=filled,label="{(a521,r894)}"];
+"r35" [shape=record,fillcolor=cyan,style=filled,label="{r35}"];
+"(a310,r46)" [shape=record,fillcolor=khaki1,style=filled,label="{(a310,r46)}"];
+"r36" [shape=record,fillcolor=cyan,style=filled,label="{r36}"];
+"a551" [shape=record,fillcolor=cyan,style=filled,label="{a551}"];
+"r917" [shape=record,fillcolor=cyan,style=filled,label="{r917}"];
+"r904" [shape=record,fillcolor=cyan,style=filled,label="{r904}"];
+"r892" [shape=record,fillcolor=cyan,style=filled,label="{r892}"];
+"a522" [shape=record,fillcolor=cyan,style=filled,label="{a522}"];
+"a310" [shape=record,fillcolor=cyan,style=filled,label="{a310}"];
+"(a306,r36)" [shape=record,fillcolor=khaki1,style=filled,label="{(a306,r36)}"];
+"r903" [shape=record,fillcolor=cyan,style=filled,label="{r903}"];
+"(a522,r895)" [shape=record,fillcolor=khaki1,style=filled,label="{(a522,r895)}"];
+"(a601,r917)" [shape=record,fillcolor=khaki1,style=filled,label="{(a601,r917)}"];
+"a312" [shape=record,fillcolor=cyan,style=filled,label="{a312}"];
+"(a17,r406)" [shape=record,fillcolor=cyan,style=filled,label="{(a17,r406)}"];
+"r895" [shape=record,fillcolor=cyan,style=filled,label="{r895}"];
+"(a549,r903)" [shape=record,fillcolor=khaki1,style=filled,label="{(a549,r903)}"];
+"r907" [shape=record,fillcolor=cyan,style=filled,label="{r907}"];
+"(a305,r35)" [shape=record,fillcolor=khaki1,style=filled,label="{(a305,r35)}"];
+"(a316,r900)" [shape=record,fillcolor=khaki1,style=filled,label="{(a316,r900)}"];
+"(a1,r23)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r23)}"];
+"(a1,r24)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r24)}"];
+"(a17,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a17,r9)}"];
+"r918" [shape=record,fillcolor=cyan,style=filled,label="{r918}"];
+"a316" [shape=record,fillcolor=cyan,style=filled,label="{a316}"];
+"a602" [shape=record,fillcolor=cyan,style=filled,label="{a602}"];
+"a305" [shape=record,fillcolor=cyan,style=filled,label="{a305}"];
+"(a603,r923)" [shape=record,fillcolor=khaki1,style=filled,label="{(a603,r923)}"];
+"r894" [shape=record,fillcolor=cyan,style=filled,label="{r894}"];
+"r46" [shape=record,fillcolor=cyan,style=filled,label="{r46}"];
+"a550" [shape=record,fillcolor=cyan,style=filled,label="{a550}"];
+"a674" -> "a602"
+"a674" -> "a601"
+"a674" -> "a603"
+"(a674,r937)" -> "a674"
+"(a674,r937)" -> "r937"
+"(a674,r937)" -> "(a602,r918)"
+"(a674,r937)" -> "(a601,r917)"
+"(a674,r937)" -> "(a603,r923)"
+"r937" -> "r918"
+"r937" -> "r917"
+"r937" -> "r923"
+"(a312,r892)" -> "(a17,r9)"
+"(a312,r892)" -> "a312"
+"(a312,r892)" -> "r892"
+"(a312,r892)" -> "(a17,r406)"
+"(a312,r892)" -> "(a306,r36)"
+"(a602,r918)" -> "(a316,r900)"
+"(a602,r918)" -> "r918"
+"(a602,r918)" -> "(a550,r904)"
+"(a602,r918)" -> "a602"
+"r923" -> "r903"
+"r923" -> "r904"
+"r923" -> "r907"
+"a521" -> "a305"
+"r900" -> "r46"
+"r900" -> "r892"
+"(a551,r907)" -> "(a522,r895)"
+"(a551,r907)" -> "(a521,r894)"
+"(a551,r907)" -> "a551"
+"(a551,r907)" -> "r907"
+"(a550,r904)" -> "(a522,r895)"
+"(a550,r904)" -> "(a310,r46)"
+"(a550,r904)" -> "r904"
+"(a550,r904)" -> "a550"
+"a549" -> "a310"
+"a549" -> "a521"
+"a603" -> "a549"
+"a603" -> "a551"
+"a603" -> "a550"
+"a601" -> "a549"
+"a601" -> "a316"
+"(a521,r894)" -> "(a305,r35)"
+"(a521,r894)" -> "r894"
+"(a521,r894)" -> "a521"
+"(a310,r46)" -> "(a305,r35)"
+"(a310,r46)" -> "r46"
+"(a310,r46)" -> "a310"
+"(a310,r46)" -> "(a306,r36)"
+"a551" -> "a521"
+"a551" -> "a522"
+"r917" -> "r903"
+"r917" -> "r900"
+"r904" -> "r46"
+"r904" -> "r895"
+"r892" -> "r36"
+"a522" -> "a305"
+"a310" -> "a305"
+"a310" -> "a306"
+"(a306,r36)" -> "(a1,r9)"
+"(a306,r36)" -> "(a1,r23)"
+"(a306,r36)" -> "a306"
+"(a306,r36)" -> "(a74,r9)"
+"(a306,r36)" -> "r36"
+"r903" -> "r894"
+"r903" -> "r46"
+"(a522,r895)" -> "(a305,r35)"
+"(a522,r895)" -> "a522"
+"(a522,r895)" -> "r895"
+"(a601,r917)" -> "(a316,r900)"
+"(a601,r917)" -> "a601"
+"(a601,r917)" -> "r917"
+"(a601,r917)" -> "(a549,r903)"
+"a312" -> "a306"
+"r895" -> "r35"
+"(a549,r903)" -> "r903"
+"(a549,r903)" -> "a549"
+"(a549,r903)" -> "(a521,r894)"
+"(a549,r903)" -> "(a310,r46)"
+"r907" -> "r894"
+"r907" -> "r895"
+"(a305,r35)" -> "(a1,r9)"
+"(a305,r35)" -> "r35"
+"(a305,r35)" -> "a305"
+"(a305,r35)" -> "(a1,r24)"
+"(a316,r900)" -> "a316"
+"(a316,r900)" -> "(a310,r46)"
+"(a316,r900)" -> "(a312,r892)"
+"(a316,r900)" -> "r900"
+"r918" -> "r904"
+"r918" -> "r900"
+"a316" -> "a310"
+"a316" -> "a312"
+"a602" -> "a316"
+"a602" -> "a550"
+"(a603,r923)" -> "(a551,r907)"
+"(a603,r923)" -> "(a550,r904)"
+"(a603,r923)" -> "a603"
+"(a603,r923)" -> "r923"
+"(a603,r923)" -> "(a549,r903)"
+"r894" -> "r35"
+"r46" -> "r35"
+"r46" -> "r36"
+"a550" -> "a522"
+"a550" -> "a310"
+}

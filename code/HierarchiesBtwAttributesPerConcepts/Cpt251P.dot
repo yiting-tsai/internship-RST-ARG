@@ -1,0 +1,15 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r290" [shape=record,fillcolor=khaki1,style=filled,label="{r290}"];
+"r279" [shape=record,fillcolor=khaki1,style=filled,label="{r279}"];
+"r122" [shape=record,fillcolor=cyan,style=filled,label="{r122}"];
+"r24" [shape=record,fillcolor=cyan,style=filled,label="{r24}"];
+"r23" [shape=record,fillcolor=cyan,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=cyan,style=filled,label="{r33}"];
+"r290" -> "r33"
+"r290" -> "r279"
+"r279" -> "r122"
+"r279" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+}

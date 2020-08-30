@@ -1,0 +1,12 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"(a60,r407)" [shape=record,fillcolor=khaki1,style=filled,label="{(a60,r407)}"];
+"r407" [shape=record,fillcolor=cyan,style=filled,label="{r407}"];
+"a60" [shape=record,fillcolor=cyan,style=filled,label="{a60}"];
+"(a56,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a56,r9)}"];
+"(a60,r407)" -> "a60"
+"(a60,r407)" -> "(a1,r9)"
+"(a60,r407)" -> "(a56,r9)"
+"(a60,r407)" -> "r407"
+}

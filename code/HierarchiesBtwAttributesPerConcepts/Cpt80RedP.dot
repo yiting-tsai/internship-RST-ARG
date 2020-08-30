@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a62,r2442)" [shape=record,fillcolor=khaki1,style=filled,label="{(a62,r2442)}"];
+"r2443" [shape=record,fillcolor=khaki1,style=filled,label="{r2443}"];
+"(a1241,r2443)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1241,r2443)}"];
+"(a1242,r2444)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1242,r2444)}"];
+"(a60,r482)" [shape=record,fillcolor=khaki1,style=filled,label="{(a60,r482)}"];
+"a1242" [shape=record,fillcolor=khaki1,style=filled,label="{a1242}"];
+"r2444" [shape=record,fillcolor=khaki1,style=filled,label="{r2444}"];
+"a1241" [shape=record,fillcolor=khaki1,style=filled,label="{a1241}"];
+"r2442" [shape=record,fillcolor=khaki1,style=filled,label="{r2442}"];
+"(a62,r2442)" -> "(a60,r482)"
+"(a62,r2442)" -> "r2442"
+"(a1241,r2443)" -> "a1241"
+"(a1241,r2443)" -> "r2443"
+"(a1242,r2444)" -> "(a62,r2442)"
+"(a1242,r2444)" -> "(a1241,r2443)"
+"(a1242,r2444)" -> "a1242"
+"(a1242,r2444)" -> "r2444"
+"a1242" -> "a1241"
+"r2444" -> "r2443"
+"r2444" -> "r2442"
+}

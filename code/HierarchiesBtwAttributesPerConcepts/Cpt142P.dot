@@ -1,0 +1,12 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r23)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r23)}"];
+"(a70,r1748)" [shape=record,fillcolor=khaki1,style=filled,label="{(a70,r1748)}"];
+"r1748" [shape=record,fillcolor=cyan,style=filled,label="{r1748}"];
+"(a1,r10)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r10)}"];
+"a70" [shape=record,fillcolor=cyan,style=filled,label="{a70}"];
+"(a70,r1748)" -> "r1748"
+"(a70,r1748)" -> "(a1,r10)"
+"(a70,r1748)" -> "a70"
+"(a70,r1748)" -> "(a1,r23)"
+}

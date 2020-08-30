@@ -1,0 +1,27 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a400,r808)" [shape=record,fillcolor=khaki1,style=filled,label="{(a400,r808)}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"(a4,r33)" [shape=record,fillcolor=orange,style=filled,label="{(a4,r33)}"];
+"a4" [shape=record,fillcolor=orange,style=filled,label="{a4}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"r807" [shape=record,fillcolor=orange,style=filled,label="{r807}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"r808" [shape=record,fillcolor=orange,style=filled,label="{r808}"];
+"a400" [shape=record,fillcolor=orange,style=filled,label="{a400}"];
+"(a400,r808)" -> "r808"
+"(a400,r808)" -> "(a4,r33)"
+"(a400,r808)" -> "a400"
+"(a4,r33)" -> "a4"
+"(a4,r33)" -> "r33"
+"a4" -> "a1"
+"r807" -> "r9"
+"r807" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+"r808" -> "r807"
+"r808" -> "r33"
+"a400" -> "a4"
+}

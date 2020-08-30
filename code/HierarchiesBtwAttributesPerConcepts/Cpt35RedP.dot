@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1173" [shape=record,fillcolor=khaki1,style=filled,label="{a1173}"];
+"(a24,r2119)" [shape=record,fillcolor=khaki1,style=filled,label="{(a24,r2119)}"];
+"(a57,r432)" [shape=record,fillcolor=khaki1,style=filled,label="{(a57,r432)}"];
+"r2127" [shape=record,fillcolor=khaki1,style=filled,label="{r2127}"];
+"(a1173,r2130)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1173,r2130)}"];
+"(a1166,r2127)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1166,r2127)}"];
+"a1166" [shape=record,fillcolor=khaki1,style=filled,label="{a1166}"];
+"r2119" [shape=record,fillcolor=khaki1,style=filled,label="{r2119}"];
+"r2130" [shape=record,fillcolor=khaki1,style=filled,label="{r2130}"];
+"a1173" -> "a1166"
+"(a24,r2119)" -> "r2119"
+"r2127" -> "r2119"
+"(a1173,r2130)" -> "a1173"
+"(a1173,r2130)" -> "(a1166,r2127)"
+"(a1173,r2130)" -> "r2130"
+"(a1166,r2127)" -> "(a57,r432)"
+"(a1166,r2127)" -> "a1166"
+"(a1166,r2127)" -> "(a24,r2119)"
+"(a1166,r2127)" -> "r2127"
+"r2130" -> "r2127"
+}

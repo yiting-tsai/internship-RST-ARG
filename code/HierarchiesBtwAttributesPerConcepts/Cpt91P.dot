@@ -1,0 +1,89 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"a471" [shape=record,fillcolor=cyan,style=filled,label="{a471}"];
+"a58" [shape=record,fillcolor=cyan,style=filled,label="{a58}"];
+"a469" [shape=record,fillcolor=cyan,style=filled,label="{a469}"];
+"r2360" [shape=record,fillcolor=khaki1,style=filled,label="{r2360}"];
+"r500" [shape=record,fillcolor=cyan,style=filled,label="{r500}"];
+"(a468,r20)" [shape=record,fillcolor=khaki1,style=filled,label="{(a468,r20)}"];
+"(a1208,r2362)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1208,r2362)}"];
+"(a469,r483)" [shape=record,fillcolor=khaki1,style=filled,label="{(a469,r483)}"];
+"r483" [shape=record,fillcolor=cyan,style=filled,label="{r483}"];
+"a1207" [shape=record,fillcolor=khaki1,style=filled,label="{a1207}"];
+"r2362" [shape=record,fillcolor=khaki1,style=filled,label="{r2362}"];
+"(a70,r407)" [shape=record,fillcolor=cyan,style=filled,label="{(a70,r407)}"];
+"r2361" [shape=record,fillcolor=khaki1,style=filled,label="{r2361}"];
+"(a471,r2361)" [shape=record,fillcolor=khaki1,style=filled,label="{(a471,r2361)}"];
+"r9" [shape=record,fillcolor=cyan,style=filled,label="{r9}"];
+"a1" [shape=record,fillcolor=cyan,style=filled,label="{a1}"];
+"(a1207,r500)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1207,r500)}"];
+"r122" [shape=record,fillcolor=cyan,style=filled,label="{r122}"];
+"(a470,r2360)" [shape=record,fillcolor=khaki1,style=filled,label="{(a470,r2360)}"];
+"a468" [shape=record,fillcolor=cyan,style=filled,label="{a468}"];
+"a70" [shape=record,fillcolor=cyan,style=filled,label="{a70}"];
+"a55" [shape=record,fillcolor=cyan,style=filled,label="{a55}"];
+"a1208" [shape=record,fillcolor=khaki1,style=filled,label="{a1208}"];
+"r20" [shape=record,fillcolor=cyan,style=filled,label="{r20}"];
+"(a1,r122)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r122)}"];
+"a139" [shape=record,fillcolor=cyan,style=filled,label="{a139}"];
+"r407" [shape=record,fillcolor=cyan,style=filled,label="{r407}"];
+"a470" [shape=record,fillcolor=cyan,style=filled,label="{a470}"];
+"(a1,r9)" -> "r9"
+"(a1,r9)" -> "a1"
+"a471" -> "a58"
+"a471" -> "a469"
+"a471" -> "a470"
+"a58" -> "a1"
+"a58" -> "a55"
+"a469" -> "a1"
+"a469" -> "a468"
+"r2360" -> "r122"
+"r2360" -> "r20"
+"r500" -> "r483"
+"r500" -> "r407"
+"(a468,r20)" -> "a468"
+"(a468,r20)" -> "r20"
+"(a1208,r2362)" -> "(a1207,r500)"
+"(a1208,r2362)" -> "a1208"
+"(a1208,r2362)" -> "r2362"
+"(a1208,r2362)" -> "(a471,r2361)"
+"(a469,r483)" -> "(a1,r9)"
+"(a469,r483)" -> "r483"
+"(a469,r483)" -> "a469"
+"(a469,r483)" -> "(a468,r20)"
+"r483" -> "r9"
+"r483" -> "r20"
+"a1207" -> "a469"
+"a1207" -> "a70"
+"r2362" -> "r2361"
+"r2362" -> "r500"
+"(a70,r407)" -> "(a1,r9)"
+"(a70,r407)" -> "a70"
+"(a70,r407)" -> "r407"
+"r2361" -> "r2360"
+"r2361" -> "r483"
+"(a471,r2361)" -> "a471"
+"(a471,r2361)" -> "(a470,r2360)"
+"(a471,r2361)" -> "(a469,r483)"
+"(a471,r2361)" -> "(a1,r122)"
+"(a471,r2361)" -> "r2361"
+"(a1207,r500)" -> "r500"
+"(a1207,r500)" -> "(a469,r483)"
+"(a1207,r500)" -> "a1207"
+"(a1207,r500)" -> "(a70,r407)"
+"(a470,r2360)" -> "r2360"
+"(a470,r2360)" -> "(a468,r20)"
+"(a470,r2360)" -> "a470"
+"a70" -> "a1"
+"a1208" -> "a471"
+"a1208" -> "a1207"
+"a1208" -> "a139"
+"(a1,r122)" -> "a1"
+"(a1,r122)" -> "r122"
+"a139" -> "a58"
+"a139" -> "a70"
+"r407" -> "r9"
+"a470" -> "a468"
+"a470" -> "a55"
+}

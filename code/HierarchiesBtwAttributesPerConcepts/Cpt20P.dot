@@ -1,0 +1,56 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"r272" [shape=record,fillcolor=cyan,style=filled,label="{r272}"];
+"r271" [shape=record,fillcolor=cyan,style=filled,label="{r271}"];
+"(a1,r168)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r168)}"];
+"a67" [shape=record,fillcolor=cyan,style=filled,label="{a67}"];
+"(a4,r172)" [shape=record,fillcolor=cyan,style=filled,label="{(a4,r172)}"];
+"a65" [shape=record,fillcolor=cyan,style=filled,label="{a65}"];
+"(a67,r273)" [shape=record,fillcolor=khaki1,style=filled,label="{(a67,r273)}"];
+"a62" [shape=record,fillcolor=cyan,style=filled,label="{a62}"];
+"(a60,r172)" [shape=record,fillcolor=cyan,style=filled,label="{(a60,r172)}"];
+"r270" [shape=record,fillcolor=cyan,style=filled,label="{r270}"];
+"(a65,r271)" [shape=record,fillcolor=khaki1,style=filled,label="{(a65,r271)}"];
+"a60" [shape=record,fillcolor=cyan,style=filled,label="{a60}"];
+"(a57,r248)" [shape=record,fillcolor=cyan,style=filled,label="{(a57,r248)}"];
+"(a56,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a56,r9)}"];
+"(a60,r270)" [shape=record,fillcolor=khaki1,style=filled,label="{(a60,r270)}"];
+"(a62,r272)" [shape=record,fillcolor=khaki1,style=filled,label="{(a62,r272)}"];
+"r273" [shape=record,fillcolor=cyan,style=filled,label="{r273}"];
+"(a4,r270)" [shape=record,fillcolor=cyan,style=filled,label="{(a4,r270)}"];
+"r272" -> "r270"
+"r271" -> "r270"
+"a67" -> "a62"
+"a67" -> "a65"
+"(a4,r172)" -> "(a1,r168)"
+"a65" -> "a60"
+"(a67,r273)" -> "(a65,r271)"
+"(a67,r273)" -> "a67"
+"(a67,r273)" -> "(a62,r272)"
+"(a67,r273)" -> "r273"
+"a62" -> "a60"
+"(a60,r172)" -> "a60"
+"(a60,r172)" -> "(a1,r168)"
+"(a65,r271)" -> "r271"
+"(a65,r271)" -> "a65"
+"(a65,r271)" -> "(a4,r172)"
+"(a65,r271)" -> "(a60,r270)"
+"(a65,r271)" -> "(a4,r270)"
+"(a65,r271)" -> "(a60,r172)"
+"(a57,r248)" -> "(a56,r9)"
+"(a60,r270)" -> "(a1,r9)"
+"(a60,r270)" -> "r270"
+"(a60,r270)" -> "a60"
+"(a60,r270)" -> "(a1,r168)"
+"(a60,r270)" -> "(a56,r9)"
+"(a62,r272)" -> "r272"
+"(a62,r272)" -> "(a57,r248)"
+"(a62,r272)" -> "(a60,r270)"
+"(a62,r272)" -> "a62"
+"r273" -> "r272"
+"r273" -> "r271"
+"(a4,r270)" -> "(a1,r9)"
+"(a4,r270)" -> "r270"
+"(a4,r270)" -> "(a1,r168)"
+}

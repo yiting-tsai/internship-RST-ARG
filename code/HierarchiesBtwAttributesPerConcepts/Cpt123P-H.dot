@@ -1,0 +1,54 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r129" [shape=record,fillcolor=orange,style=filled,label="{r129}"];
+"(a82,r793)" [shape=record,fillcolor=khaki1,style=filled,label="{(a82,r793)}"];
+"a74" [shape=record,fillcolor=orange,style=filled,label="{a74}"];
+"a75" [shape=record,fillcolor=orange,style=filled,label="{a75}"];
+"a79" [shape=record,fillcolor=orange,style=filled,label="{a79}"];
+"(a76,r20)" [shape=record,fillcolor=khaki1,style=filled,label="{(a76,r20)}"];
+"(a75,r20)" [shape=record,fillcolor=cyan,style=filled,label="{(a75,r20)}"];
+"(a74,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a74,r9)}"];
+"a17" [shape=record,fillcolor=orange,style=filled,label="{a17}"];
+"a77" [shape=record,fillcolor=orange,style=filled,label="{a77}"];
+"r793" [shape=record,fillcolor=orange,style=filled,label="{r793}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"a82" [shape=record,fillcolor=orange,style=filled,label="{a82}"];
+"(a17,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a17,r9)}"];
+"r248" [shape=record,fillcolor=orange,style=filled,label="{r248}"];
+"a78" [shape=record,fillcolor=orange,style=filled,label="{a78}"];
+"r20" [shape=record,fillcolor=orange,style=filled,label="{r20}"];
+"a76" [shape=record,fillcolor=orange,style=filled,label="{a76}"];
+"(a77,r129)" [shape=record,fillcolor=orange,style=filled,label="{(a77,r129)}"];
+"r129" -> "r9"
+"(a82,r793)" -> "a82"
+"(a82,r793)" -> "(a75,r20)"
+"(a82,r793)" -> "(a76,r20)"
+"(a82,r793)" -> "r793"
+"(a82,r793)" -> "(a77,r129)"
+"a79" -> "a75"
+"a79" -> "a74"
+"a79" -> "a76"
+"(a76,r20)" -> "r20"
+"(a76,r20)" -> "a76"
+"(a75,r20)" -> "a75"
+"(a75,r20)" -> "r20"
+"(a74,r9)" -> "r9"
+"(a74,r9)" -> "a74"
+"a77" -> "a74"
+"a77" -> "a17"
+"r793" -> "r129"
+"r793" -> "r248"
+"a82" -> "a78"
+"a82" -> "a79"
+"a82" -> "a77"
+"(a17,r9)" -> "r9"
+"(a17,r9)" -> "a17"
+"r248" -> "r9"
+"r248" -> "r20"
+"a78" -> "a75"
+"a78" -> "a17"
+"(a77,r129)" -> "r129"
+"(a77,r129)" -> "a77"
+"(a77,r129)" -> "(a74,r9)"
+"(a77,r129)" -> "(a17,r9)"
+}

@@ -1,0 +1,31 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r116" [shape=record,fillcolor=cyan,style=filled,label="{r116}"];
+"r1671" [shape=record,fillcolor=cyan,style=filled,label="{r1671}"];
+"r24" [shape=record,fillcolor=cyan,style=filled,label="{r24}"];
+"r19" [shape=record,fillcolor=cyan,style=filled,label="{r19}"];
+"r23" [shape=record,fillcolor=cyan,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=cyan,style=filled,label="{r33}"];
+"r31" [shape=record,fillcolor=cyan,style=filled,label="{r31}"];
+"r109" [shape=record,fillcolor=cyan,style=filled,label="{r109}"];
+"r43" [shape=record,fillcolor=cyan,style=filled,label="{r43}"];
+"r1672" [shape=record,fillcolor=khaki1,style=filled,label="{r1672}"];
+"r32" [shape=record,fillcolor=cyan,style=filled,label="{r32}"];
+"r116" -> "r109"
+"r116" -> "r33"
+"r1671" -> "r109"
+"r1671" -> "r32"
+"r33" -> "r24"
+"r33" -> "r23"
+"r31" -> "r19"
+"r31" -> "r23"
+"r109" -> "r24"
+"r43" -> "r33"
+"r43" -> "r31"
+"r43" -> "r32"
+"r1672" -> "r116"
+"r1672" -> "r1671"
+"r1672" -> "r43"
+"r32" -> "r24"
+"r32" -> "r19"
+}

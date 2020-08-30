@@ -1,0 +1,4 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a21,r33)" [shape=record,fillcolor=khaki1,style=filled,label="{(a21,r33)}"];
+}

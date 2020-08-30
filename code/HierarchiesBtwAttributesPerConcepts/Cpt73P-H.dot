@@ -1,0 +1,57 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r106" [shape=record,fillcolor=orange,style=filled,label="{r106}"];
+"a58" [shape=record,fillcolor=orange,style=filled,label="{a58}"];
+"r789" [shape=record,fillcolor=orange,style=filled,label="{r789}"];
+"a17" [shape=record,fillcolor=orange,style=filled,label="{a17}"];
+"r105" [shape=record,fillcolor=orange,style=filled,label="{r105}"];
+"r440" [shape=record,fillcolor=yellow,style=filled,label="{r440}"];
+"r436" [shape=record,fillcolor=yellow,style=filled,label="{r436}"];
+"r787" [shape=record,fillcolor=yellow,style=filled,label="{r787}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"r438" [shape=record,fillcolor=orange,style=filled,label="{r438}"];
+"(a1,r23)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r23)}"];
+"r786" [shape=record,fillcolor=yellow,style=filled,label="{r786}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"a55" [shape=record,fillcolor=orange,style=filled,label="{a55}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"r446" [shape=record,fillcolor=orange,style=filled,label="{r446}"];
+"r20" [shape=record,fillcolor=orange,style=filled,label="{r20}"];
+"r112" [shape=record,fillcolor=orange,style=filled,label="{r112}"];
+"r788" [shape=record,fillcolor=orange,style=filled,label="{r788}"];
+"r168" [shape=record,fillcolor=orange,style=filled,label="{r168}"];
+"r106" -> "r20"
+"r106" -> "r24"
+"a58" -> "a1"
+"a58" -> "a55"
+"r789" -> "r787"
+"r789" -> "r446"
+"r789" -> "r788"
+"r789" -> "r112"
+"r105" -> "r20"
+"r105" -> "r23"
+"r440" -> "r24"
+"r440" -> "r436"
+"r787" -> "r786"
+"r787" -> "r106"
+"r787" -> "r440"
+"r438" -> "r436"
+"r438" -> "r168"
+"r438" -> "r23"
+"(a1,r23)" -> "a1"
+"(a1,r23)" -> "r23"
+"r786" -> "r20"
+"r786" -> "r436"
+"r33" -> "r24"
+"r33" -> "r23"
+"r446" -> "r438"
+"r446" -> "r33"
+"r446" -> "r440"
+"r112" -> "r106"
+"r112" -> "r105"
+"r112" -> "r33"
+"r788" -> "r438"
+"r788" -> "r786"
+"r788" -> "r105"
+}

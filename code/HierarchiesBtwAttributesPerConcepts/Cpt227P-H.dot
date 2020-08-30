@@ -1,0 +1,12 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"r2182" [shape=record,fillcolor=khaki1,style=filled,label="{r2182}"];
+"r775" [shape=record,fillcolor=orange,style=filled,label="{r775}"];
+"a4" [shape=record,fillcolor=orange,style=filled,label="{a4}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"r21" [shape=record,fillcolor=orange,style=filled,label="{r21}"];
+"r2182" -> "r775"
+"r2182" -> "r21"
+"a4" -> "a1"
+}

@@ -1,0 +1,54 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1213,r2368)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1213,r2368)}"];
+"a1212" [shape=record,fillcolor=khaki1,style=filled,label="{a1212}"];
+"(a1211,r2366)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1211,r2366)}"];
+"(a1210,r2365)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1210,r2365)}"];
+"(a0,r21)" [shape=record,fillcolor=khaki1,style=filled,label="{(a0,r21)}"];
+"r2363" [shape=record,fillcolor=khaki1,style=filled,label="{r2363}"];
+"a1210" [shape=record,fillcolor=khaki1,style=filled,label="{a1210}"];
+"a1211" [shape=record,fillcolor=khaki1,style=filled,label="{a1211}"];
+"a1213" [shape=record,fillcolor=khaki1,style=filled,label="{a1213}"];
+"(a1212,r2367)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1212,r2367)}"];
+"a1209" [shape=record,fillcolor=khaki1,style=filled,label="{a1209}"];
+"(a1209,r2182)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1209,r2182)}"];
+"r2365" [shape=record,fillcolor=khaki1,style=filled,label="{r2365}"];
+"r2366" [shape=record,fillcolor=khaki1,style=filled,label="{r2366}"];
+"r2364" [shape=record,fillcolor=khaki1,style=filled,label="{r2364}"];
+"(a260,r2363)" [shape=record,fillcolor=khaki1,style=filled,label="{(a260,r2363)}"];
+"r2368" [shape=record,fillcolor=khaki1,style=filled,label="{r2368}"];
+"r2367" [shape=record,fillcolor=khaki1,style=filled,label="{r2367}"];
+"(a1124,r2364)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1124,r2364)}"];
+"(a1213,r2368)" -> "(a1211,r2366)"
+"(a1213,r2368)" -> "(a1210,r2365)"
+"(a1213,r2368)" -> "r2368"
+"(a1213,r2368)" -> "a1213"
+"(a1213,r2368)" -> "(a1212,r2367)"
+"(a1211,r2366)" -> "a1211"
+"(a1211,r2366)" -> "(a260,r2363)"
+"(a1211,r2366)" -> "r2366"
+"(a1210,r2365)" -> "(a1209,r2182)"
+"(a1210,r2365)" -> "r2365"
+"(a1210,r2365)" -> "(a260,r2363)"
+"(a1210,r2365)" -> "a1210"
+"(a1210,r2365)" -> "(a1124,r2364)"
+"a1210" -> "a1209"
+"a1213" -> "a1211"
+"a1213" -> "a1212"
+"a1213" -> "a1210"
+"(a1212,r2367)" -> "a1212"
+"(a1212,r2367)" -> "r2367"
+"(a1212,r2367)" -> "(a1124,r2364)"
+"(a1209,r2182)" -> "a1209"
+"(a1209,r2182)" -> "(a0,r21)"
+"r2365" -> "r2363"
+"r2365" -> "r2364"
+"r2366" -> "r2363"
+"(a260,r2363)" -> "r2363"
+"r2368" -> "r2365"
+"r2368" -> "r2366"
+"r2368" -> "r2367"
+"r2367" -> "r2364"
+"(a1124,r2364)" -> "(a0,r21)"
+"(a1124,r2364)" -> "r2364"
+}

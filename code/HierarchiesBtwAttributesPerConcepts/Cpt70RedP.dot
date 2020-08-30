@@ -1,0 +1,23 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r1968" [shape=record,fillcolor=khaki1,style=filled,label="{r1968}"];
+"(a423,r1970)" [shape=record,fillcolor=khaki1,style=filled,label="{(a423,r1970)}"];
+"(a3,r1965)" [shape=record,fillcolor=khaki1,style=filled,label="{(a3,r1965)}"];
+"(a72,r1968)" [shape=record,fillcolor=khaki1,style=filled,label="{(a72,r1968)}"];
+"r1967" [shape=record,fillcolor=khaki1,style=filled,label="{r1967}"];
+"r1965" [shape=record,fillcolor=khaki1,style=filled,label="{r1965}"];
+"(a421,r1967)" [shape=record,fillcolor=khaki1,style=filled,label="{(a421,r1967)}"];
+"r1970" [shape=record,fillcolor=khaki1,style=filled,label="{r1970}"];
+"r1968" -> "r1965"
+"(a423,r1970)" -> "(a72,r1968)"
+"(a423,r1970)" -> "(a421,r1967)"
+"(a423,r1970)" -> "r1970"
+"(a3,r1965)" -> "r1965"
+"(a72,r1968)" -> "(a3,r1965)"
+"(a72,r1968)" -> "r1968"
+"r1967" -> "r1965"
+"(a421,r1967)" -> "(a3,r1965)"
+"(a421,r1967)" -> "r1967"
+"r1970" -> "r1968"
+"r1970" -> "r1967"
+}

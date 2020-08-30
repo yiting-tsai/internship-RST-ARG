@@ -1,0 +1,8 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r20" [shape=record,fillcolor=orange,style=filled,label="{r20}"];
+"r2" [shape=record,fillcolor=orange,style=filled,label="{r2}"];
+"r1947" [shape=record,fillcolor=khaki1,style=filled,label="{r1947}"];
+"r1947" -> "r20"
+"r1947" -> "r2"
+}

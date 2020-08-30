@@ -1,0 +1,48 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r2138" [shape=record,fillcolor=khaki1,style=filled,label="{r2138}"];
+"a1185" [shape=record,fillcolor=khaki1,style=filled,label="{a1185}"];
+"(a1177,r2132)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1177,r2132)}"];
+"a1183" [shape=record,fillcolor=khaki1,style=filled,label="{a1183}"];
+"a1174" [shape=record,fillcolor=khaki1,style=filled,label="{a1174}"];
+"a1181" [shape=record,fillcolor=khaki1,style=filled,label="{a1181}"];
+"(a303,r1035)" [shape=record,fillcolor=khaki1,style=filled,label="{(a303,r1035)}"];
+"a1177" [shape=record,fillcolor=khaki1,style=filled,label="{a1177}"];
+"r2132" [shape=record,fillcolor=khaki1,style=filled,label="{r2132}"];
+"(a1185,r2140)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1185,r2140)}"];
+"r2140" [shape=record,fillcolor=khaki1,style=filled,label="{r2140}"];
+"r2136" [shape=record,fillcolor=khaki1,style=filled,label="{r2136}"];
+"(a1183,r2138)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1183,r2138)}"];
+"(a1181,r2136)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1181,r2136)}"];
+"(a1174,r1)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1174,r1)}"];
+"r2133" [shape=record,fillcolor=khaki1,style=filled,label="{r2133}"];
+"(a309,r2133)" [shape=record,fillcolor=khaki1,style=filled,label="{(a309,r2133)}"];
+"r2138" -> "r2133"
+"r2138" -> "r2132"
+"a1185" -> "a1183"
+"a1185" -> "a1181"
+"(a1177,r2132)" -> "(a303,r1035)"
+"(a1177,r2132)" -> "a1177"
+"(a1177,r2132)" -> "r2132"
+"a1183" -> "a1177"
+"a1181" -> "a1174"
+"a1181" -> "a1177"
+"(a1185,r2140)" -> "a1185"
+"(a1185,r2140)" -> "r2140"
+"(a1185,r2140)" -> "(a1183,r2138)"
+"(a1185,r2140)" -> "(a1181,r2136)"
+"r2140" -> "r2138"
+"r2140" -> "r2136"
+"r2136" -> "r2132"
+"(a1183,r2138)" -> "r2138"
+"(a1183,r2138)" -> "(a1177,r2132)"
+"(a1183,r2138)" -> "a1183"
+"(a1183,r2138)" -> "(a309,r2133)"
+"(a1181,r2136)" -> "r2136"
+"(a1181,r2136)" -> "(a1177,r2132)"
+"(a1181,r2136)" -> "(a1174,r1)"
+"(a1181,r2136)" -> "a1181"
+"(a1174,r1)" -> "a1174"
+"(a309,r2133)" -> "(a303,r1035)"
+"(a309,r2133)" -> "r2133"
+}

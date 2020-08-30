@@ -1,0 +1,45 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=orange,style=filled,label="{(a1,r9)}"];
+"(a2,r368)" [shape=record,fillcolor=khaki1,style=filled,label="{(a2,r368)}"];
+"a3" [shape=record,fillcolor=orange,style=filled,label="{a3}"];
+"(a5,r810)" [shape=record,fillcolor=khaki1,style=filled,label="{(a5,r810)}"];
+"r368" [shape=record,fillcolor=orange,style=filled,label="{r368}"];
+"r9" [shape=record,fillcolor=orange,style=filled,label="{r9}"];
+"a2" [shape=record,fillcolor=orange,style=filled,label="{a2}"];
+"r809" [shape=record,fillcolor=khaki1,style=filled,label="{r809}"];
+"a1" [shape=record,fillcolor=orange,style=filled,label="{a1}"];
+"r362" [shape=record,fillcolor=orange,style=filled,label="{r362}"];
+"(a0,r362)" [shape=record,fillcolor=khaki1,style=filled,label="{(a0,r362)}"];
+"(a3,r809)" [shape=record,fillcolor=khaki1,style=filled,label="{(a3,r809)}"];
+"a5" [shape=record,fillcolor=orange,style=filled,label="{a5}"];
+"r1" [shape=record,fillcolor=orange,style=filled,label="{r1}"];
+"a0" [shape=record,fillcolor=orange,style=filled,label="{a0}"];
+"r810" [shape=record,fillcolor=khaki1,style=filled,label="{r810}"];
+"(a1,r9)" -> "r9"
+"(a1,r9)" -> "a1"
+"(a2,r368)" -> "r368"
+"(a2,r368)" -> "a2"
+"(a2,r368)" -> "(a0,r362)"
+"a3" -> "a1"
+"a3" -> "a0"
+"(a5,r810)" -> "(a3,r809)"
+"(a5,r810)" -> "(a2,r368)"
+"(a5,r810)" -> "a5"
+"(a5,r810)" -> "r810"
+"r368" -> "r362"
+"r368" -> "r1"
+"a2" -> "a0"
+"r809" -> "r9"
+"r809" -> "r362"
+"(a0,r362)" -> "a0"
+"(a0,r362)" -> "r362"
+"(a3,r809)" -> "(a1,r9)"
+"(a3,r809)" -> "a3"
+"(a3,r809)" -> "(a0,r362)"
+"(a3,r809)" -> "r809"
+"a5" -> "a3"
+"a5" -> "a2"
+"r810" -> "r368"
+"r810" -> "r809"
+}

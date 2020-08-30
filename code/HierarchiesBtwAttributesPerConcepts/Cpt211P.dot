@@ -1,0 +1,31 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1009" [shape=record,fillcolor=khaki1,style=filled,label="{a1009}"];
+"a92" [shape=record,fillcolor=cyan,style=filled,label="{a92}"];
+"a1" [shape=record,fillcolor=cyan,style=filled,label="{a1}"];
+"a8" [shape=record,fillcolor=cyan,style=filled,label="{a8}"];
+"a1011" [shape=record,fillcolor=cyan,style=filled,label="{a1011}"];
+"a4" [shape=record,fillcolor=cyan,style=filled,label="{a4}"];
+"a1012" [shape=record,fillcolor=khaki1,style=filled,label="{a1012}"];
+"a1013" [shape=record,fillcolor=khaki1,style=filled,label="{a1013}"];
+"a94" [shape=record,fillcolor=cyan,style=filled,label="{a94}"];
+"a101" [shape=record,fillcolor=cyan,style=filled,label="{a101}"];
+"a1010" [shape=record,fillcolor=khaki1,style=filled,label="{a1010}"];
+"a1009" -> "a1"
+"a1009" -> "a92"
+"a1011" -> "a1009"
+"a1011" -> "a4"
+"a4" -> "a1"
+"a1012" -> "a4"
+"a1012" -> "a101"
+"a1013" -> "a1011"
+"a1013" -> "a1012"
+"a1013" -> "a1010"
+"a94" -> "a92"
+"a94" -> "a8"
+"a101" -> "a1"
+"a101" -> "a8"
+"a1010" -> "a1009"
+"a1010" -> "a94"
+"a1010" -> "a101"
+}

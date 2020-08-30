@@ -1,0 +1,31 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a1195" [shape=record,fillcolor=khaki1,style=filled,label="{a1195}"];
+"(a117,r2320)" [shape=record,fillcolor=khaki1,style=filled,label="{(a117,r2320)}"];
+"r2320" [shape=record,fillcolor=khaki1,style=filled,label="{r2320}"];
+"(a244,r266)" [shape=record,fillcolor=khaki1,style=filled,label="{(a244,r266)}"];
+"a1197" [shape=record,fillcolor=khaki1,style=filled,label="{a1197}"];
+"r2323" [shape=record,fillcolor=khaki1,style=filled,label="{r2323}"];
+"(a1197,r2326)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1197,r2326)}"];
+"(a1195,r2323)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1195,r2323)}"];
+"r2326" [shape=record,fillcolor=khaki1,style=filled,label="{r2326}"];
+"(a219,r33)" [shape=record,fillcolor=khaki1,style=filled,label="{(a219,r33)}"];
+"(a221,r114)" [shape=record,fillcolor=khaki1,style=filled,label="{(a221,r114)}"];
+"(a237,r112)" [shape=record,fillcolor=khaki1,style=filled,label="{(a237,r112)}"];
+"(a117,r2320)" -> "r2320"
+"(a244,r266)" -> "(a221,r114)"
+"(a244,r266)" -> "(a237,r112)"
+"a1197" -> "a1195"
+"r2323" -> "r2320"
+"(a1197,r2326)" -> "(a244,r266)"
+"(a1197,r2326)" -> "r2326"
+"(a1197,r2326)" -> "(a1195,r2323)"
+"(a1197,r2326)" -> "a1197"
+"(a1195,r2323)" -> "a1195"
+"(a1195,r2323)" -> "(a117,r2320)"
+"(a1195,r2323)" -> "r2323"
+"(a1195,r2323)" -> "(a221,r114)"
+"r2326" -> "r2323"
+"(a221,r114)" -> "(a219,r33)"
+"(a237,r112)" -> "(a219,r33)"
+}

@@ -1,0 +1,28 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"a75" [shape=record,fillcolor=orange,style=filled,label="{a75}"];
+"a78" [shape=record,fillcolor=orange,style=filled,label="{a78}"];
+"a178" [shape=record,fillcolor=khaki1,style=filled,label="{a178}"];
+"r24" [shape=record,fillcolor=orange,style=filled,label="{r24}"];
+"a173" [shape=record,fillcolor=khaki1,style=filled,label="{a173}"];
+"a17" [shape=record,fillcolor=orange,style=filled,label="{a17}"];
+"r23" [shape=record,fillcolor=orange,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=orange,style=filled,label="{r33}"];
+"a159" [shape=record,fillcolor=orange,style=filled,label="{a159}"];
+"a202" [shape=record,fillcolor=khaki1,style=filled,label="{a202}"];
+"a206" [shape=record,fillcolor=khaki1,style=filled,label="{a206}"];
+"a168" [shape=record,fillcolor=orange,style=filled,label="{a168}"];
+"a78" -> "a75"
+"a78" -> "a17"
+"a178" -> "a17"
+"a173" -> "a78"
+"a173" -> "a168"
+"r33" -> "r24"
+"r33" -> "r23"
+"a159" -> "a17"
+"a202" -> "a178"
+"a202" -> "a168"
+"a206" -> "a173"
+"a206" -> "a202"
+"a168" -> "a159"
+}

@@ -1,0 +1,25 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r971" [shape=record,fillcolor=khaki1,style=filled,label="{r971}"];
+"r9" [shape=record,fillcolor=cyan,style=filled,label="{r9}"];
+"r808" [shape=record,fillcolor=cyan,style=filled,label="{r808}"];
+"r248" [shape=record,fillcolor=cyan,style=filled,label="{r248}"];
+"r24" [shape=record,fillcolor=cyan,style=filled,label="{r24}"];
+"r807" [shape=record,fillcolor=cyan,style=filled,label="{r807}"];
+"r23" [shape=record,fillcolor=cyan,style=filled,label="{r23}"];
+"r33" [shape=record,fillcolor=cyan,style=filled,label="{r33}"];
+"r20" [shape=record,fillcolor=cyan,style=filled,label="{r20}"];
+"r973" [shape=record,fillcolor=khaki1,style=filled,label="{r973}"];
+"r971" -> "r248"
+"r971" -> "r807"
+"r808" -> "r807"
+"r808" -> "r33"
+"r248" -> "r9"
+"r248" -> "r20"
+"r807" -> "r9"
+"r807" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+"r973" -> "r971"
+"r973" -> "r808"
+}

@@ -1,0 +1,6 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r1512" [shape=record,fillcolor=khaki1,style=filled,label="{r1512}"];
+"(a405,r1512)" [shape=record,fillcolor=khaki1,style=filled,label="{(a405,r1512)}"];
+"(a405,r1512)" -> "r1512"
+}

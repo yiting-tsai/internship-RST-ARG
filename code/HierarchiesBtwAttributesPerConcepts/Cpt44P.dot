@@ -1,0 +1,114 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a1,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r9)}"];
+"(a9,r9)" [shape=record,fillcolor=khaki1,style=filled,label="{(a9,r9)}"];
+"r1765" [shape=record,fillcolor=cyan,style=filled,label="{r1765}"];
+"r141" [shape=record,fillcolor=cyan,style=filled,label="{r141}"];
+"a8" [shape=record,fillcolor=cyan,style=filled,label="{a8}"];
+"(a8,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a8,r9)}"];
+"(a335,r1981)" [shape=record,fillcolor=khaki1,style=filled,label="{(a335,r1981)}"];
+"(a106,r1979)" [shape=record,fillcolor=khaki1,style=filled,label="{(a106,r1979)}"];
+"r1981" [shape=record,fillcolor=khaki1,style=filled,label="{r1981}"];
+"(a1,r141)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r141)}"];
+"r1979" [shape=record,fillcolor=khaki1,style=filled,label="{r1979}"];
+"r1978" [shape=record,fillcolor=khaki1,style=filled,label="{r1978}"];
+"r9" [shape=record,fillcolor=cyan,style=filled,label="{r9}"];
+"(a1,r759)" [shape=record,fillcolor=cyan,style=filled,label="{(a1,r759)}"];
+"(a56,r9)" [shape=record,fillcolor=cyan,style=filled,label="{(a56,r9)}"];
+"a9" [shape=record,fillcolor=cyan,style=filled,label="{a9}"];
+"a336" [shape=record,fillcolor=cyan,style=filled,label="{a336}"];
+"r144" [shape=record,fillcolor=cyan,style=filled,label="{r144}"];
+"r1975" [shape=record,fillcolor=cyan,style=filled,label="{r1975}"];
+"a339" [shape=record,fillcolor=cyan,style=filled,label="{a339}"];
+"(a327,r1978)" [shape=record,fillcolor=khaki1,style=filled,label="{(a327,r1978)}"];
+"a335" [shape=record,fillcolor=cyan,style=filled,label="{a335}"];
+"a106" [shape=record,fillcolor=cyan,style=filled,label="{a106}"];
+"r1980" [shape=record,fillcolor=khaki1,style=filled,label="{r1980}"];
+"(a8,r141)" [shape=record,fillcolor=khaki1,style=filled,label="{(a8,r141)}"];
+"(a339,r1982)" [shape=record,fillcolor=khaki1,style=filled,label="{(a339,r1982)}"];
+"r1976" [shape=record,fillcolor=cyan,style=filled,label="{r1976}"];
+"(a336,r1980)" [shape=record,fillcolor=khaki1,style=filled,label="{(a336,r1980)}"];
+"r759" [shape=record,fillcolor=cyan,style=filled,label="{r759}"];
+"r1982" [shape=record,fillcolor=khaki1,style=filled,label="{r1982}"];
+"a101" [shape=record,fillcolor=cyan,style=filled,label="{a101}"];
+"(a12,r144)" [shape=record,fillcolor=khaki1,style=filled,label="{(a12,r144)}"];
+"r20" [shape=record,fillcolor=cyan,style=filled,label="{r20}"];
+"(a9,r141)" [shape=record,fillcolor=cyan,style=filled,label="{(a9,r141)}"];
+"a327" [shape=record,fillcolor=cyan,style=filled,label="{a327}"];
+"a12" [shape=record,fillcolor=cyan,style=filled,label="{a12}"];
+"r1977" [shape=record,fillcolor=cyan,style=filled,label="{r1977}"];
+"(a101,r1765)" [shape=record,fillcolor=khaki1,style=filled,label="{(a101,r1765)}"];
+"(a1,r9)" -> "r9"
+"(a9,r9)" -> "r9"
+"(a9,r9)" -> "a9"
+"r1765" -> "r759"
+"r1765" -> "r141"
+"(a8,r9)" -> "r9"
+"(a8,r9)" -> "a8"
+"(a335,r1981)" -> "a335"
+"(a335,r1981)" -> "(a106,r1979)"
+"(a335,r1981)" -> "r1981"
+"(a335,r1981)" -> "(a56,r9)"
+"(a335,r1981)" -> "(a327,r1978)"
+"(a106,r1979)" -> "(a1,r9)"
+"(a106,r1979)" -> "a106"
+"(a106,r1979)" -> "(a12,r144)"
+"(a106,r1979)" -> "r1979"
+"(a106,r1979)" -> "(a101,r1765)"
+"r1981" -> "r1979"
+"r1981" -> "r1978"
+"(a1,r141)" -> "r141"
+"r1979" -> "r1765"
+"r1979" -> "r144"
+"r1978" -> "r1765"
+"r1978" -> "r1975"
+"(a1,r759)" -> "r759"
+"(a56,r9)" -> "r9"
+"a336" -> "a327"
+"r144" -> "r9"
+"r144" -> "r141"
+"r1975" -> "r759"
+"a339" -> "a335"
+"a339" -> "a336"
+"(a327,r1978)" -> "r1978"
+"(a327,r1978)" -> "a327"
+"(a327,r1978)" -> "(a101,r1765)"
+"a335" -> "a106"
+"a335" -> "a327"
+"a106" -> "a12"
+"a106" -> "a101"
+"r1980" -> "r1978"
+"r1980" -> "r1977"
+"(a8,r141)" -> "r141"
+"(a8,r141)" -> "a8"
+"(a339,r1982)" -> "r1982"
+"(a339,r1982)" -> "(a335,r1981)"
+"(a339,r1982)" -> "a339"
+"(a339,r1982)" -> "(a336,r1980)"
+"r1976" -> "r759"
+"r1976" -> "r20"
+"(a336,r1980)" -> "r1980"
+"(a336,r1980)" -> "a336"
+"(a336,r1980)" -> "(a327,r1978)"
+"r1982" -> "r1980"
+"r1982" -> "r1981"
+"a101" -> "a8"
+"(a12,r144)" -> "(a9,r9)"
+"(a12,r144)" -> "(a8,r9)"
+"(a12,r144)" -> "(a8,r141)"
+"(a12,r144)" -> "(a9,r141)"
+"(a12,r144)" -> "r144"
+"(a12,r144)" -> "a12"
+"(a9,r141)" -> "r141"
+"(a9,r141)" -> "a9"
+"a327" -> "a101"
+"a12" -> "a8"
+"a12" -> "a9"
+"r1977" -> "r1976"
+"r1977" -> "r1975"
+"(a101,r1765)" -> "(a1,r759)"
+"(a101,r1765)" -> "r1765"
+"(a101,r1765)" -> "(a8,r141)"
+"(a101,r1765)" -> "(a1,r141)"
+"(a101,r1765)" -> "a101"
+}

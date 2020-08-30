@@ -1,0 +1,37 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r266" [shape=record,fillcolor=khaki1,style=filled,label="{r266}"];
+"r106" [shape=record,fillcolor=cyan,style=filled,label="{r106}"];
+"r22" [shape=record,fillcolor=cyan,style=filled,label="{r22}"];
+"r24" [shape=record,fillcolor=cyan,style=filled,label="{r24}"];
+"r107" [shape=record,fillcolor=cyan,style=filled,label="{r107}"];
+"r105" [shape=record,fillcolor=cyan,style=filled,label="{r105}"];
+"r33" [shape=record,fillcolor=cyan,style=filled,label="{r33}"];
+"r23" [shape=record,fillcolor=cyan,style=filled,label="{r23}"];
+"r114" [shape=record,fillcolor=cyan,style=filled,label="{r114}"];
+"r20" [shape=record,fillcolor=cyan,style=filled,label="{r20}"];
+"r108" [shape=record,fillcolor=cyan,style=filled,label="{r108}"];
+"r263" [shape=record,fillcolor=cyan,style=filled,label="{r263}"];
+"r112" [shape=record,fillcolor=cyan,style=filled,label="{r112}"];
+"r266" -> "r114"
+"r266" -> "r263"
+"r266" -> "r112"
+"r106" -> "r20"
+"r106" -> "r24"
+"r107" -> "r23"
+"r107" -> "r22"
+"r105" -> "r20"
+"r105" -> "r23"
+"r33" -> "r24"
+"r33" -> "r23"
+"r114" -> "r107"
+"r114" -> "r33"
+"r114" -> "r108"
+"r108" -> "r24"
+"r108" -> "r22"
+"r263" -> "r106"
+"r263" -> "r108"
+"r112" -> "r106"
+"r112" -> "r105"
+"r112" -> "r33"
+}

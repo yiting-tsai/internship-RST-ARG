@@ -1,0 +1,48 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"(a70,r1747)" [shape=record,fillcolor=khaki1,style=filled,label="{(a70,r1747)}"];
+"r1760" [shape=record,fillcolor=khaki1,style=filled,label="{r1760}"];
+"(a305,r1750)" [shape=record,fillcolor=khaki1,style=filled,label="{(a305,r1750)}"];
+"a1055" [shape=record,fillcolor=khaki1,style=filled,label="{a1055}"];
+"(a1053,r1760)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1053,r1760)}"];
+"(a316,r1761)" [shape=record,fillcolor=khaki1,style=filled,label="{(a316,r1761)}"];
+"r1757" [shape=record,fillcolor=khaki1,style=filled,label="{r1757}"];
+"(a312,r1757)" [shape=record,fillcolor=khaki1,style=filled,label="{(a312,r1757)}"];
+"(a1055,r1762)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1055,r1762)}"];
+"(a77,r31)" [shape=record,fillcolor=khaki1,style=filled,label="{(a77,r31)}"];
+"r1747" [shape=record,fillcolor=khaki1,style=filled,label="{r1747}"];
+"r1762" [shape=record,fillcolor=khaki1,style=filled,label="{r1762}"];
+"r1761" [shape=record,fillcolor=khaki1,style=filled,label="{r1761}"];
+"r1752" [shape=record,fillcolor=khaki1,style=filled,label="{r1752}"];
+"a1053" [shape=record,fillcolor=khaki1,style=filled,label="{a1053}"];
+"(a1052,r1752)" [shape=record,fillcolor=khaki1,style=filled,label="{(a1052,r1752)}"];
+"a1052" [shape=record,fillcolor=khaki1,style=filled,label="{a1052}"];
+"(a70,r1747)" -> "r1747"
+"r1760" -> "r1747"
+"r1760" -> "r1757"
+"a1055" -> "a1053"
+"a1055" -> "a1052"
+"(a1053,r1760)" -> "a1053"
+"(a1053,r1760)" -> "(a70,r1747)"
+"(a1053,r1760)" -> "(a312,r1757)"
+"(a1053,r1760)" -> "r1760"
+"(a316,r1761)" -> "(a305,r1750)"
+"(a316,r1761)" -> "(a77,r31)"
+"(a316,r1761)" -> "r1761"
+"(a316,r1761)" -> "(a312,r1757)"
+"(a312,r1757)" -> "r1757"
+"(a1055,r1762)" -> "r1762"
+"(a1055,r1762)" -> "a1055"
+"(a1055,r1762)" -> "(a1053,r1760)"
+"(a1055,r1762)" -> "(a316,r1761)"
+"(a1055,r1762)" -> "(a1052,r1752)"
+"r1762" -> "r1760"
+"r1762" -> "r1761"
+"r1762" -> "r1752"
+"r1761" -> "r1757"
+"r1752" -> "r1747"
+"(a1052,r1752)" -> "(a305,r1750)"
+"(a1052,r1752)" -> "(a70,r1747)"
+"(a1052,r1752)" -> "r1752"
+"(a1052,r1752)" -> "a1052"
+}

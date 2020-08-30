@@ -1,0 +1,51 @@
+digraph G {
+rankdir=BT;ranksep="2.0";
+"r131" [shape=record,fillcolor=khaki1,style=filled,label="{r131}"];
+"r138" [shape=record,fillcolor=khaki1,style=filled,label="{r138}"];
+"r135" [shape=record,fillcolor=khaki1,style=filled,label="{r135}"];
+"(a82,r133)" [shape=record,fillcolor=khaki1,style=filled,label="{(a82,r133)}"];
+"a85" [shape=record,fillcolor=khaki1,style=filled,label="{a85}"];
+"(a84,r134)" [shape=record,fillcolor=khaki1,style=filled,label="{(a84,r134)}"];
+"(a89,r137)" [shape=record,fillcolor=khaki1,style=filled,label="{(a89,r137)}"];
+"(a79,r130)" [shape=record,fillcolor=khaki1,style=filled,label="{(a79,r130)}"];
+"(a90,r138)" [shape=record,fillcolor=khaki1,style=filled,label="{(a90,r138)}"];
+"r136" [shape=record,fillcolor=khaki1,style=filled,label="{r136}"];
+"(a85,r135)" [shape=record,fillcolor=khaki1,style=filled,label="{(a85,r135)}"];
+"r137" [shape=record,fillcolor=khaki1,style=filled,label="{r137}"];
+"a90" [shape=record,fillcolor=khaki1,style=filled,label="{a90}"];
+"(a87,r136)" [shape=record,fillcolor=khaki1,style=filled,label="{(a87,r136)}"];
+"r134" [shape=record,fillcolor=khaki1,style=filled,label="{r134}"];
+"(a80,r131)" [shape=record,fillcolor=khaki1,style=filled,label="{(a80,r131)}"];
+"(a75,r19)" [shape=record,fillcolor=khaki1,style=filled,label="{(a75,r19)}"];
+"a89" [shape=record,fillcolor=khaki1,style=filled,label="{a89}"];
+"r138" -> "r136"
+"r138" -> "r137"
+"r135" -> "r131"
+"(a82,r133)" -> "(a79,r130)"
+"(a84,r134)" -> "r134"
+"(a84,r134)" -> "(a79,r130)"
+"(a84,r134)" -> "(a80,r131)"
+"(a89,r137)" -> "(a85,r135)"
+"(a89,r137)" -> "r137"
+"(a89,r137)" -> "(a84,r134)"
+"(a89,r137)" -> "a89"
+"(a79,r130)" -> "(a75,r19)"
+"(a90,r138)" -> "r138"
+"(a90,r138)" -> "a90"
+"(a90,r138)" -> "(a87,r136)"
+"(a90,r138)" -> "(a89,r137)"
+"r136" -> "r134"
+"(a85,r135)" -> "a85"
+"(a85,r135)" -> "r135"
+"(a85,r135)" -> "(a80,r131)"
+"r137" -> "r134"
+"r137" -> "r135"
+"a90" -> "a89"
+"(a87,r136)" -> "r136"
+"(a87,r136)" -> "(a82,r133)"
+"(a87,r136)" -> "(a84,r134)"
+"r134" -> "r131"
+"(a80,r131)" -> "r131"
+"(a80,r131)" -> "(a75,r19)"
+"a89" -> "a85"
+}
